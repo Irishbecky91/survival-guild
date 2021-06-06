@@ -44,9 +44,9 @@ The main requirements of this project is to build a responsive and static front-
 ## UX
 ### Ideal User Demographic
 The ideal user for this website is:
-* Current users
-* New users
-* Survivalist users
+* Current user
+* New user
+* Survivalist
 
 ### User-Stories
 #### Current User Goals
@@ -60,12 +60,51 @@ The ideal user for this website is:
 3. As a new user, I want links directing me to additional sources of information and recommended stores to browse.
 4. As a new user, I want attractive and relevant visuals and colour schemes which work with the content.
 
-#### Survivalist User Goals
-1. As a survivalist user, I want to factually correct and relevant information.
-2. As a survivalist user, I want to see instructional images and/or videos with user controls relevant to the information.
-3. As a survivalist user, I want to see links directing me to relevant sites where I can purchase items relevant to the information.
+#### Survivalist Goals
+1. As a survivalist, I want to factually correct and relevant information.
+2. As a survivalist, I want to see instructional images and/or videos with user controls relevant to the information.
+3. As a survivalist, I want to see links directing me to relevant sites where I can purchase items relevant to the information.
 
 ### Development-Planes
+In order to create a comprehensive website which answers the above user stories and identifies the functionality of the site, the developer must develop all aspects of the fictional world which the website is being creeated for. This includes a background story, breaking news feed, survival information and creating a how-to-guide to dispose of infected individuals.
 
+#### Strategy
+This website will focus on the following target audience, divided into three main categories:
+- **Roles:**
+    - Current users
+    - New users
+    - Experienced survivalists
+    - Beginner survivalists
 
+- **Demographic:**
+    - All ages
+    - Irish or residing in Ireland
+    - Beginner to experienced Preppers/Survivalists
+
+- **Psychographic:**
+    - Lifestyles:
+    ... - Interest in Nature
+        - Active
+    - Personality/Attitudes:
+    ... - Outgoing
+        - Focused
+        - Creative
+    - Values:
+    ... - Environmentally friendly
+        - Sense of community
+
+The website needs to enable the **user** to:
+    - Retrieve the desired information:
+    ... - Survival/hunting/gathering guide
+        - Camp building and fortification guide
+        - Backpack essemtials
+        - Infected disposal tips and techniques
+        - Recommended equipment (hunting/tools/weapons/armor/etc.)
+    - Report suspected cases for referral.
+    - Access links to additional sites where equipment, etc. can be purchased.
+    
+The website needs to enable the **site manager** to:
+    - Gather reports of suspected cases for referral.
+    
+With the aove information in mind, a strategy table was created to show the trade-offs between what is important and what is viable with the following results.
 

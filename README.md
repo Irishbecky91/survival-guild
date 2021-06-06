@@ -83,14 +83,14 @@ This website will focus on the following target audience, divided into three mai
 
 - **Psychographic:**
     - Lifestyles:
-    ... - Interest in Nature
+        - Interest in Nature
         - Active
     - Personality/Attitudes:
-    ... - Outgoing
+        - Outgoing
         - Focused
         - Creative
     - Values:
-    ... - Environmentally friendly
+        - Environmentally friendly
         - Sense of community
 
 The website needs to enable the **user** to:

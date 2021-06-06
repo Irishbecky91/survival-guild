@@ -42,3 +42,30 @@ This website was made for the first of five Milestone projects required to compl
 The main requirements of this project is to build a responsive and static front-end site to present useful information to users using all the technologies learned so far, namely HTML5 and CSS3. The site is to contain no less than three pages.
 
 ## UX
+### Ideal User Demographic
+The ideal user for this website is:
+* Current users
+* New users
+* Survivalist users
+
+### User-Stories
+#### Current User Goals
+1. As a current user, I want to see regular updates to the information and breaking news on the home page as the situation develops.
+2. As a current user, I want to easily navigate through the site and access the information I require with ease.
+3. As a current user, I want to easily navigate to content I have previously viewed within a small number of steps.
+
+#### New User Goals
+1. As a new user, I want to easily navigate the entire site intuitively. 
+2. As a new user, I want the information I seek to be easily accessible and relevant.
+3. As a new user, I want links directing me to additional sources of information and recommended stores to browse.
+4. As a new user, I want attractive and relevant visuals and colour schemes which work with the content.
+
+#### Survivalist User Goals
+1. As a survivalist user, I want to factually correct and relevant information.
+2. As a survivalist user, I want to see instructional images and/or videos with user controls relevant to the information.
+3. As a survivalist user, I want to see links directing me to relevant sites where I can purchase items relevant to the information.
+
+### Development-Planes
+
+
+

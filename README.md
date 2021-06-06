@@ -95,7 +95,7 @@ This website will focus on the following target audience, divided into three mai
 
 The website needs to enable the **user** to:
     - Retrieve the desired information:
-    ... - Survival/hunting/gathering guide
+        - Survival/hunting/gathering guide
         - Camp building and fortification guide
         - Backpack essemtials
         - Infected disposal tips and techniques
@@ -108,3 +108,4 @@ The website needs to enable the **site manager** to:
     
 With the aove information in mind, a strategy table was created to show the trade-offs between what is important and what is viable with the following results.
 
+![Strategy Table](assets/readme-files/strategy-table.png)

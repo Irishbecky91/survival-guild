@@ -31,7 +31,7 @@
 9. [Acknowledgements](#Acknowledgements)
 ***
 
-##Introduction
+## Introduction
 
 This comprehensive website was made to provide information regarding a fictional zombie apocalypse infecting 95% of the world's population. The target audience are the people of Ireland, one of the few remaining infection free zones. 
 
@@ -41,4 +41,4 @@ This website was made for the first of five Milestone projects required to compl
 
 The main requirements of this project is to build a responsive and static front-end site to present useful information to users using all the technologies learned so far, namely HTML5 and CSS3. The site is to contain no less than three pages.
 
-##UX
+## UX

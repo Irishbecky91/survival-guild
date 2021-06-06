@@ -94,18 +94,18 @@ This website will focus on the following target audience, divided into three mai
         - Sense of community
 
 The website needs to enable the **user** to:
-    - Retrieve the desired information:
-        - Survival/hunting/gathering guide
-        - Camp building and fortification guide
-        - Backpack essemtials
-        - Infected disposal tips and techniques
-        - Recommended equipment (hunting/tools/weapons/armor/etc.)
+- Retrieve the desired information:
+    - Survival/hunting/gathering guide
+    - Camp building and fortification guide
+    - Backpack essemtials
+    - Infected disposal tips and techniques
+    - Recommended equipment (hunting/tools/weapons/armor/etc.)
     - Report suspected cases for referral.
     - Access links to additional sites where equipment, etc. can be purchased.
     
 The website needs to enable the **site manager** to:
-    - Gather reports of suspected cases for referral.
+- Gather reports of suspected cases for referral.
     
-With the aove information in mind, a strategy table was created to show the trade-offs between what is important and what is viable with the following results.
+With the above information in mind, a strategy table was created to show the trade-offs between what is important and what is viable with the following results.
 
 ![Strategy Table](assets/readme-files/strategy-table.png)

@@ -130,7 +130,9 @@ The scope plane is about defining requirements based on the goals established on
         - Be able to contact the site to report possible cases
 
 #### Structure
-The information above is now organized in a hierarchial tree structure showing how users can navigate through the site with ease and efficiency, with the following results:
+The information above was then organized in a hierarchical tree structure showing how users can navigate through the site with ease and efficiency, with the following results:
 
-![Site Map](assets/readme-files/site-map.png)
+![Site Map](assets/readme-files/sitemap.png)
 
+#### Skeleton
+Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of Balsamiq.

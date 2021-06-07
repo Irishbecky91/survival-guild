@@ -136,3 +136,10 @@ The information above was then organized in a hierarchical tree structure showin
 
 #### Skeleton
 Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of Balsamiq.
+
+![Home Page Wireframe](assets/readme-files/wireframe-home.png)
+![Survival Tips Page Wireframe](assets/readme-files/wireframe-survival-tips.png)
+![Camp Setup Page Wireframe](assets/readme-files/wireframe-camp-setup.png)
+![Defence Tips Page Wireframe](assets/readme-files/wireframe-defence-tips.png)
+![Contact Page Wireframe](assets/readme-files/wireframe-contact-us.png)
+![Competition Page Wireframe](assets/readme-files/wireframe-competition.png)

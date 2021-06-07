@@ -135,7 +135,7 @@ The information above was then organized in a hierarchical tree structure showin
 ![Site Map](assets/readme-files/sitemap.png)
 
 #### Skeleton
-Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of Balsamiq.
+Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of ![Balsamiq](https://balsamiq.com/).
 
 ![Home Page Wireframe](assets/readme-files/wireframe-home.png)
 ![Survival Tips Page Wireframe](assets/readme-files/wireframe-survival-tips.png)
@@ -143,3 +143,13 @@ Wireframes were made to showcase the appearance of the site pages while keeping 
 ![Defence Tips Page Wireframe](assets/readme-files/wireframe-defence-tips.png)
 ![Contact Page Wireframe](assets/readme-files/wireframe-contact-us.png)
 ![Competition Page Wireframe](assets/readme-files/wireframe-competition.png)
+
+### Design
+#### Colour Scheme
+Using the ![Colourmind](http://colormind.io/template/material-dashboard/) colour palette generator, the colour scheme chosen is based around Hazard Yellow, with a complementing a light green colour named Snow Drift, a medium dark shade of cyan, a light green close to Spring Rain, and red colour close to Deep Chestnut.
+
+This colour palette was chosen based around the colour Hazard Yellow, which is used on all hazarous material and signs. The colour reflects the danger presented by the infected individuals in the fictional story.
+
+![Colour Palette](assets/readme-files/colour-palette.png)
+
+#### Typography

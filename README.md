@@ -162,6 +162,19 @@ The selected imagery has been sourced and created from various sites. Fake news 
 
 Images of "The Infected" have been sourced from a freelance concept artist, [Soufiane Idrassi](https://www.artstation.com/cgsoufiane), through the website [Art Station](https://www.artstation.com/). 
 
-Various images, found in the assets folder, have been gathered for use across the site. These range from images of weapons to camping equipment.
+Various images, found in the [readme-files](assets/readme-files) folder, have been gathered for use across the site. These range from images of weapons to camping equipment.
 
 [Back to top](#Survival-Guild)
+
+## Features
+### Design Features
+Each page within the site has a consistent and resposive navigation system. The details of features on the site are detailed below.
+- For larger screen sizes:
+    - The **Header** is across the top of the page and stays in place when the user scrolls down the page when using a screen 950px or larger.
+    - The **Navigation Bar** is positioned directly below the header and remains in view as the user scrolls down the page.
+    - The **Footer** is across the bottom of the page and stays in place when the user scrolls down the page when using a screen 950px or larger.
+- For smaller screen sizes:
+    - The **Header** remains at the top of the webpage, moving out of view as the user scrolls down.
+    - The **Navigation Bar** collapses into a **toggler icon** that, when clicked or tapped, shows the navigation options.
+    - The **Footer** is not visible until the user scrolls to the bottom of the webpage. To ensure the social media icons are not missed, they are now added to the navigation toggler icon. 
+    - A **Back To Top** icon appears on the bottom right of the screen, allowing the user to immediately return to the top of the page without scrolling.

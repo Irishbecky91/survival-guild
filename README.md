@@ -129,3 +129,8 @@ The scope plane is about defining requirements based on the goals established on
             - Sites with recipes for campfire cooking
         - Be able to contact the site to report possible cases
 
+#### Structure
+The information above is now organized in a hierarchial tree structure showing how users can navigate through the site with ease and efficiency, with the following results:
+
+![Site Map](assets/readme-files/site-map.png)
+

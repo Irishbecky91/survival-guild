@@ -1,4 +1,4 @@
-# The Survival Guild
+# Survival Guild
 
 [View the live project here](url)
 
@@ -146,10 +146,22 @@ Wireframes were made to showcase the appearance of the site pages while keeping 
 
 ### Design
 #### Colour Scheme
-Using the ![Colourmind](http://colormind.io/template/material-dashboard/) colour palette generator, the colour scheme chosen is based around Hazard Yellow, with a complementing a light green colour named Snow Drift, a medium dark shade of cyan, a light green close to Spring Rain, and red colour close to Deep Chestnut.
+Using the [Colourmind](http://colormind.io/template/material-dashboard/) colour palette generator, the colour scheme chosen is based on the colour Hazard Yellow. This is complimeneted by a very light green colour named Snow Drift, a light green close to Spring Rain, red colour close to Deep Chestnut, and a medium-dark shade of cyan.
 
-This colour palette was chosen based around the colour Hazard Yellow, which is used on all hazarous material and signs. The colour reflects the danger presented by the infected individuals in the fictional story.
+This colour palette was chosen based on the colour Hazard Yellow, which is used on all hazardous material and signs. The colour represents the danger presented by the infected individuals in the fictional story.
 
 ![Colour Palette](assets/readme-files/colour-palette.png)
 
 #### Typography
+The typography pairing used on the site are [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open), [Special Elite](https://fonts.google.com/specimen/Special+Elite?query=speci) and [Oswald](https://fonts.google.com/specimen/Oswald?query=osw), imported from [Google Fonts](https://fonts.google.com/). A backup of Sans-Serif had been applied in case of import failure.
+
+Special Elite was chosen for the title on the header, with a slogan underneath using the font Oswald. Open Sans will be used for headings, with Oswald being used for standard text.
+
+#### Imagery
+The selected imagery has been sourced and created from various sites. Fake news reports and twitter feeds will feature on the home page in a news feed style setup. 
+
+Images of "The Infected" have been sourced from a freelance concept artist, [Soufiane Idrassi](https://www.artstation.com/cgsoufiane), through the website [Art Station](https://www.artstation.com/). 
+
+Various images, found in the assets folder, have been gathered for use across the site. These range from images of weapons to camping equipment.
+
+[Back to top](#Survival-Guild)

@@ -137,12 +137,7 @@ The information above was then organized in a hierarchical tree structure showin
 #### Skeleton
 Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of ![Balsamiq](https://balsamiq.com/).
 
-![Home Page Wireframe](assets/readme-files/wireframe-home.png)
-![Survival Tips Page Wireframe](assets/readme-files/wireframe-survival-tips.png)
-![Camp Setup Page Wireframe](assets/readme-files/wireframe-camp-setup.png)
-![Defence Tips Page Wireframe](assets/readme-files/wireframe-defence-tips.png)
-![Contact Page Wireframe](assets/readme-files/wireframe-contact-us.png)
-![Competition Page Wireframe](assets/readme-files/wireframe-competition.png)
+![Site Wireframes](assets/readme-files/wireframe-all-pages.png)
 
 ### Design
 #### Colour Scheme
@@ -178,3 +173,11 @@ Each page within the site has a consistent and resposive navigation system. The 
     - The **Navigation Bar** collapses into a **toggler icon** that, when clicked or tapped, shows the navigation options.
     - The **Footer** is not visible until the user scrolls to the bottom of the webpage. To ensure the social media icons are not missed, they are now added to the navigation toggler icon. 
     - A **Back To Top** icon appears on the bottom right of the screen, allowing the user to immediately return to the top of the page without scrolling.
+
+<dl>
+    <dt><a href="index.html" target="_blank" alt="Survival Guild Home Page">Home Page</a></dt>
+    <dd>The <em>Home Page</em> is divided into three columns. The central column covers most of the width and contains all the pages information, while the external columns on either side are narrow and blank with a complimentary colour.</dd>
+        <ul>
+            <li>
+            <em>Banner</em> - Covering 100% of the width of the screen and 150px in height when viewed on desktop. On mobile, the height changes to Xpx. The heading is not static and moves with the page.
+            </li>

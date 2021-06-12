@@ -76,5 +76,62 @@
     height: 45px;
 }
 
-/*  */
+/* Text and Image Styling - Home Page */
+
+.wow-text {
+    color: #36454F;
+
+    padding: 1rem;
+}
+
+.wow-text h1 {
+    text-align: center;
+    font-family: 'Special Elite', sans-serif;
+    font-size: 7vh;
+
+    padding-bottom: 2rem;
+}
+
+.wow-text p {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#article-details {
+    font-size: small;
+    padding-left: 2rem;
+}
+
+.world-news {
+    box-sizing: border-box;
+    display: block;
+
+    width: 100%;
+    padding: 2rem;
+    margin-top: 3rem;
+
+    text-align: justify;
+    color: #36454F;
+    background-color: #DFE7DE;
+}
+
+.world-news h2 {
+    font-family: Oswald, sans-serif;
+}
+
+.world-news p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.news-feed img {
+    width: 25rem;
+    height: auto;
+}
+
+.news-section {
+    box-sizing: border-box;
+    width: 45%;
+    text-align: center;
+    object-position: right;
+}
 

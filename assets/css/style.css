@@ -1,1 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Special+Elite&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background-container {
+    background-color: #E2DDDC;
+    width: 100%;
+    height: 100vh;
+}
+
+.background-content {
+    background-color: #EFF4F0;
+    width: 75%;
+    height: 100vh;
+    margin: 0 auto;
+    background-position: center;
+    padding: 1em;
+}

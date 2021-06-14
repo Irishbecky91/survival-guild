@@ -74,32 +74,37 @@
 
 /* Text and Image Styling - Home Page */
 
-.wow-text {
+/* intro Text */
+
+.intro-text {
     color: #36454F;
     padding: 1rem;
 }
 
-.wow-text h1 {
+.intro-text h1 {
     text-align: center;
     font-family: 'Special Elite', sans-serif;
     font-size: 7vh;
     padding-bottom: 2rem;
 }
 
-.wow-text p {
+.intro-text p {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
 }
 
-#article-details {
+#intro-details {
     font-size: small;
     padding-left: 2rem;
 }
 
-.world-news {
-    width: 100%;
+/* News Text */
+
+.text-left {
+    width: 45%;
     padding-top: 2rem;
     float: left;
+    background-color: #9FB396;
 }
 
 .world-news h2 {
@@ -111,7 +116,7 @@
 }
 
 .news-feed img {
-    width: 100%;
+    width: 50%;
     padding-top: 2rem;
     float: right;
     height: auto;
@@ -164,4 +169,11 @@ footer a {
     font-weight: 800;
     text-decoration: none;
     cursor: pointer;
+}
+
+/* For medium screens size from 950px wide and down */
+@media screen and (max-width: 950px) {
+    #nav-bar {
+        display: none;
+    }
 }

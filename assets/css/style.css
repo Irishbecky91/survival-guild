@@ -11,13 +11,13 @@
 .container {
     background-color: #E2DDDC;
     width: 100%;
-    height: auto;
+    /* height: auto; */
 }
 
 .content {
     background-color: #EFF4F0;
     width: 75%;
-    height: auto;
+    /* height: auto; */
     margin: 0 auto;
     background-position: center;
     padding: 5%;
@@ -102,9 +102,11 @@
 
 .text-left {
     width: 45%;
-    padding-top: 2rem;
+    padding: 3rem, 1rem, 0, 1rem;
     float: left;
-    background-color: #9FB396;
+    clear: left;
+    background-color: #DFE7DE;
+    color: #36454F;
 }
 
 .world-news h2 {
@@ -115,10 +117,26 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.news-feed img {
-    width: 50%;
-    padding-top: 2rem;
+.text-right {
+    width: 45%;
+    padding-top: 2px;
     float: right;
+    clear: right;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 5rem;
+}
+
+.text-right h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #36454F;
+}
+
+.text-right img {
+    width: 100%;
+    float: right;
+    clear: right;
     height: auto;
 }
 
@@ -126,6 +144,13 @@
     box-sizing: border-box;
     width: 100%;
     text-align: center;
+}
+
+.tweets img {
+    width: 45%;
+    padding-top: 2rem;
+    float: left;
+    clear: left;
 }
 
 /* Footer Styling */

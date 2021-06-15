@@ -42,7 +42,7 @@
     font-family: 'Special Elite', sans-serif;
     font-size: 55px;
     text-align: center;
-    padding: 4vh 0 0 0;
+    padding: 40px 0 0 0;
     margin: 0, auto;
 }
 
@@ -53,6 +53,7 @@
     padding: 0 auto 5vh 0;
     margin: 0 auto;
     padding-bottom: 3vh;
+    font-weight: normal;
 }
 
 
@@ -61,7 +62,7 @@
     background-color: #EFF4F0;
     display: inline-block;
     border-radius: 10px;
-    height: 25px;
+    height: 35px;
     width: 100px;
     margin: 10px 1vw;
 }    
@@ -70,14 +71,14 @@
     color: #36454F;
     vertical-align: text-top;
     font-family: "Oswald", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
 }
 
 #nav-bar-content {
     text-align: center;
     background-color: #9FB396;
-    height: 45px;
+    height: 55px;
 }
 
 
@@ -85,25 +86,28 @@
 
 /* intro Text */
 .intro-text {
-    color: #36454F;
+    color: #383838;
     padding: 1rem;
 }
 
-.intro-text h1 {
+.intro-heading {
     text-align: center;
     font-family: 'Special Elite', sans-serif;
-    font-size: 8vh;
+    font-size: 60px;
     padding-bottom: 2rem;
 }
 
 .intro-text p {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    padding: 3rem 5% 0 5%;
 }
 
 #intro-details {
-    font-size: 16px;
-    padding-left: 2rem;
+    font-size: 20px;
+    padding: 2rem 0 20px 5%;
 }
 
 
@@ -111,8 +115,8 @@
 
 /* The State of the World */
 .text-left {
-    width: 50%;
-    padding: 3rem, 1rem, 0, 1rem;
+    width: 45%;
+    padding: 1rem 1rem 0 3rem;
     border: 20px solid #DFE7DE;
     float: left;
     background-color: #DFE7DE;
@@ -120,14 +124,17 @@
 }
 
 .world-news h2 {
-    font-family: Oswald, sans-serif;
-    padding-bottom: 40px;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 60px;
     font-weight: bold;
+    font-size: 50px;
 }
 
 .world-news p {
     font-family: 'Open Sans', sans-serif;
     text-align: left;
+    font-size: 25px;
+    padding: 1rem;
 }
 
 
@@ -147,12 +154,15 @@
     text-align: center;
     font-family: 'Oswald', sans-serif;
     color: #36454F;
-    padding-top: 10px;
+    padding: 1rem;
     font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
 }
 
 .news-blurb {
     padding-top: 30px;
+    font-size: 18px;
 }
 
 .news-date {
@@ -171,18 +181,35 @@
     box-sizing: border-box;
     width: 100%;
     text-align: center;
+    padding-top: 4rem;
 }
 
 
 /* Twitter Feed */
 .tweets img {
-    width: 50%;
+    max-width: 90%;
     padding-top: 2rem;
+    padding-left: 5%;
+    text-align: center;
+}
+
+.tweets h2 {
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: xx-large;
     float: left;
+    color: #383838;
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 40%;
 }
 
 .tweets {
+    padding: 60px auto 40px 8vw;
     margin-bottom: 80px;
+    float: left;
+    clear: left;
+    width: 45%;
 }
 
 
@@ -209,7 +236,7 @@ footer a {
 }
 
 
-/* Back-To-Top Button Configuration - CSS code found on https://secluded.site/adding-a-better-scroll-to-top-button-without-javascript/*/
+/* Back-To-Top Button Configuration - CSS code found on https://secluded.site/adding-a-better-scroll-to-top-button-without-javascript/ */
 .top {
     position: fixed;
     bottom: 5rem;

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Special+Elite&display=swap');
 
-/* Background Styling */
 
+/* Background Styling */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -23,18 +23,24 @@
     padding: 5%;
 }
 
-/* Heading Styling */
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
+
+/* Heading Styling */
 .head {
     background-color: #305356;
     color: #eed202;
     width: 100%;
-    height: 150;
+    height: 150px;
 }
 
 .main-heading {
     font-family: 'Special Elite', sans-serif;
-    font-size: 9vh;
+    font-size: 55px;
     text-align: center;
     padding: 4vh 0 0 0;
     margin: 0, auto;
@@ -42,40 +48,42 @@
 
 .slogan {
     font-family: Oswald, sans-serif;
-    font-size: 3vh;
+    font-size: 20px;
     text-align: center;
     padding: 0 auto 5vh 0;
     margin: 0 auto;
     padding-bottom: 3vh;
 }
 
-/* Navigation Bar Styling */
 
-#nav-bar li {
+/* Navigation Bar Styling */
+#nav-bar-content li {
     background-color: #EFF4F0;
     display: inline-block;
     border-radius: 10px;
-    text-decoration: none;
     height: 25px;
-    width: 140px;
-    margin: 1.5vh 1vw;
-    font-family: "Open Sans", sans-serif;
-}
+    width: 100px;
+    margin: 10px 1vw;
+}    
 
-#nav-bar a {
+#nav-bar-content a {
     color: #36454F;
+    vertical-align: text-top;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
 }
 
-#nav-bar {
+#nav-bar-content {
     text-align: center;
     background-color: #9FB396;
     height: 45px;
 }
 
+
 /* Text and Image Styling - Home Page */
 
 /* intro Text */
-
 .intro-text {
     color: #36454F;
     padding: 1rem;
@@ -84,7 +92,7 @@
 .intro-text h1 {
     text-align: center;
     font-family: 'Special Elite', sans-serif;
-    font-size: 7vh;
+    font-size: 8vh;
     padding-bottom: 2rem;
 }
 
@@ -94,50 +102,69 @@
 }
 
 #intro-details {
-    font-size: small;
+    font-size: 16px;
     padding-left: 2rem;
 }
 
-/* News Text */
 
+/* Main Text on Homepage */
+
+/* The State of the World */
 .text-left {
-    width: 45%;
+    width: 50%;
     padding: 3rem, 1rem, 0, 1rem;
+    border: 20px solid #DFE7DE;
     float: left;
-    clear: left;
     background-color: #DFE7DE;
     color: #36454F;
 }
 
 .world-news h2 {
     font-family: Oswald, sans-serif;
+    padding-bottom: 40px;
+    font-weight: bold;
 }
 
 .world-news p {
     font-family: 'Open Sans', sans-serif;
+    text-align: left;
 }
 
+
+/* News Feed */
 .text-right {
     width: 45%;
     padding-top: 2px;
     float: right;
-    clear: right;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 5rem;
+    background-color: #DFE7DE;
+    padding: 0 2.5%;
 }
 
-.text-right h2 {
+.news-feed h2 {
     text-align: center;
     font-family: 'Oswald', sans-serif;
     color: #36454F;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.news-blurb {
+    padding-top: 30px;
+}
+
+.news-date {
+    font-size: 12px;
+    font-style: italic;
 }
 
 .text-right img {
     width: 100%;
     float: right;
-    clear: right;
     height: auto;
+    padding-top: 5%;
 }
 
 .news-section {
@@ -146,20 +173,25 @@
     text-align: center;
 }
 
+
+/* Twitter Feed */
 .tweets img {
-    width: 45%;
+    width: 50%;
     padding-top: 2rem;
     float: left;
-    clear: left;
 }
 
-/* Footer Styling */
+.tweets {
+    margin-bottom: 80px;
+}
 
+
+/* Footer Styling */
 .footer-content {
     background-color: #305356;
     color: #eed202;
     width: 100%;
-    height: 4rem;
+    height: 60px;
     position: fixed;
     padding: 1em;
 	text-align: center;
@@ -170,13 +202,14 @@
 
 footer a {
     color: #eed202;
-    font-size: 2rem;
+    font-size: 30px;
     text-align: center;
+    vertical-align: middle;
     padding: 1vh 2vw;
 }
 
-/* Back-To-Top Button Configuration - CSS code found on https://secluded.site/adding-a-better-scroll-to-top-button-without-javascript/*/
 
+/* Back-To-Top Button Configuration - CSS code found on https://secluded.site/adding-a-better-scroll-to-top-button-without-javascript/*/
 .top {
     position: fixed;
     bottom: 5rem;
@@ -196,9 +229,155 @@ footer a {
     cursor: pointer;
 }
 
-/* For medium screens size from 950px wide and down */
-@media screen and (max-width: 950px) {
-    #nav-bar {
+
+/* Media Queries */
+/* For large screens sizes 1200px wide and up */
+@media screen and (min-width: 1200px) {
+    .ham-menu {
         display: none;
     }
+}
+
+/* For large screens sizes 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    .nav-bar{
+        display: none;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: inline-block;
+        padding: .50em 15px;
+        line-height: 1em;
+        font-size: 1em;
+        color: #eed202;
+        background-color: #9FB396;
+        width: 100%;
+    }
+
+    .fa {
+        background-color: #305356;
+        padding: 0.5em;
+        border-radius: 2px;
+    }
+
+    .menu-toggle:hover,
+    .menu-toggle:focus {
+        color: #9FB396;
+    }
+
+    .hamburger-menu {
+        position: absolute;
+        display: none;
+        left: -200px;
+        top: 0;
+        height: 100%;
+        overflow-y: scroll;
+        overflow-x: visible;
+        transition: left 0.3s ease, box-shadow 0.3s ease;
+        z-index: 999;
+    }
+
+    .hamburger-menu ul {
+        list-style: none;
+        margin: 1.5vh 1vw;
+        padding: 2.5em 0 0;
+        box-shadow: -8px 0 8px #305356;
+        min-height: 100%;
+        width: 200px;
+        background: #305356;
+        
+    }
+
+    .hamburger-menu a {
+        display: block;
+        padding: .75em 15px;
+        line-height: 1em;
+        font-size: 1em;
+        color: #eed202;
+        text-decoration: none;
+        border-bottom: 1px solid #383838;
+    }
+
+    .hamburger-menu li:first-child a {
+        border-top: 1px solid #383838;
+    }
+    
+    .hamburger-menu a:hover,
+    .hamburger-menu a:focus {
+        border-radius: 2px;
+        padding: .75em;
+    }
+    
+    .hamburger-menu .menu-close {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    /* Interactive part of hamburger menu */
+
+    .hamburger-menu:target,
+    .hamburger-menu[aria-expanded="true"] {
+        display: block;
+        left: 0;
+        outline: none;
+        box-shadow: 3px 0 12px rgba(0,0,0,.25);
+    }
+
+    .hamburger-menu:target .menu-close,
+    .hamburger-menu[aria-expanded="true"] .menu-close {
+        z-index: 1001;
+    }
+    
+    .hamburger-menu:target ul,
+    .hamburger-menu[aria-expanded="true"] ul {
+        position: relative;
+        z-index: 1000;
+    }
+
+    .hamburger-menu:target + .backdrop,
+    .hamburger-menu[aria-expanded="true"] + .backdrop{
+        position: absolute;
+        display: block;  
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 998;
+        background: #000;
+        background: rgba(0,0,0,.85);
+        cursor: default;
+    }
+
+    @supports (position: fixed) {
+        .hamburger-menu,
+        .hamburger-menu:target + .backdrop,
+        .hamburger-menu[aria-expanded="true"] + .backdrop{
+            position: fixed;
+        }
+    }
+
+
+
+    .intro-text h1 {
+        font-size: 40px;
+    }
+}
+
+/* For medium screens size from 950px wide and down */
+/* Hamburger Menu - Code adapted from Mark Caron's work on https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 */
+@media screen and (max-width: 950px) {
+    .intro-text h1 {
+        font-size: 30px;
+    }
+
+    .intro-text {
+        padding: 0;
+    }
+
+    
 }

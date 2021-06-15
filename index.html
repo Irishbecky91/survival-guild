@@ -16,14 +16,15 @@
         <h5 class="slogan">Leading Experts In The Apocolypse</h5>
     </header>
 
-    <nav class="menu">
-        <ul id="nav-bar">
+    <!-- Menu for screens larger than 950px -->
+    <section class="nav-bar">
+        <nav>
+            <ul id="nav-bar-content">
                 <li>
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="survival-tips.html">Survival Tips</a>
-                </li>
+                    <a href="survival-tips.html">Survival Tips</a>                    </li>
                 <li>
                     <a href="camp-setup.html">Camp Setup</a>
                 </li>
@@ -32,17 +33,47 @@
                 </li>
                 <li>
                     <a href="contact.html">Contact Us</a>
-                </li>
+                    </li>
                 <li>
                     <a href="competition.html">Competition</a>
                 </li>
             </ul>
         </nav>
-            
-        <nav id="hamburger-menu">
+    </section>
 
+    <!-- Menu for screens 950px and smaller -->
+    <section  class="ham-menu">
+        <a href="#hamburger-menu" id="main-menu-toggle" class="menu-toggle" aria-label="Click to open main menu">
+            <span class="fa fa-bars" aria-hidden="true"></span>
+        </a>
+
+        <nav id="hamburger-menu" class="hamburger-menu" aria-label="Main Menu">
+            <a href="#main-menu-toggle" id="main-menu-close" class="menu-close" aria-label="Click to close main menu">
+                <span class="fa fa-close" aria-hidden="true"></span>
+            </a>
+            <ul id="ham-menu-content">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="survival-tips.html">Survival Tips</a>                    </li>
+                <li>
+                    <a href="camp-setup.html">Camp Setup</a>
+                </li>
+                <li>
+                    <a href="defence-tips.html">Defence Tips</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                    </li>
+                <li>
+                    <a href="competition.html">Competition</a>
+                </li>
+            </ul>
         </nav>
-
+        <a href="#main-menu-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
+    </section>
+            
     <div class="container">
         <div class="content">
             <section class="intro-text">
@@ -65,15 +96,26 @@
                 <div class="news-feed text-right">
                     <h2>Live News Feed</h2>
                     <img src="assets/site-images/breaking-news-leader.png" alt="Breaking News - Newest Mutation discovered" class="news-image" />
-                    <p>Scientists have discovered a third varient of the O-COVID-21 virus, causing those infected to become disfigured with fungus goring up and over the eyes. This varient behaves in a similar manner to a queen in a beehive, directing the workers and drones. <span>See more...</span></p>
+                    <p class="news-date">Last updated:   31 August 2021, 13:23</p>
+                    <p class="news-blurb">Scientists have discovered a third varient of the O-COVID-21 virus, causing those infected to become disfigured with fungus goring up and over the eyes. This varient behaves in a similar manner to a queen in a beehive, directing the workers and drones. <span>See more...</span></p>
+
                     <br />
+                    
                     <img src="assets/site-images/breaking-news-car.png" alt="Breaking News - Burning car" class="news-image" />
-                    <p>Russia and USA have joined forces to fight back the attacking hordes of Infected. Talks are underway to send nuclear missiles into the worst affected areas. The Chinese government has not been in contact for three days, people are beginning to fear the worst. <span>See more...</span></p>
-                    <br />                        <img src="assets/site-images/breaking-news-airport.png" alt="Breaking News - Riot outside airport in China" class="news-image" />
-                    <p>Governments are in turmoil as the virus continues to spread. All countries have shut their borders in an effort to contain the virus. Increased levels of aggression and violence seen in infected cases. Hospitals are severely understaffed across the world. <span>See more...</span></p>
+                    <p class="news-date">Last updated:   22 August 2021, 13:37</p>
+                    <p class="news-blurb">Russia and USA have joined forces to fight back the attacking hordes of Infected. Talks are underway to send nuclear missiles into the worst affected areas. The Chinese government has not been in contact for three days, people are beginning to fear the worst. <span>See more...</span></p>
+                    
+                    <br />                        
+                    
+                    <img src="assets/site-images/breaking-news-airport.png" alt="Breaking News - Riot outside airport in China" class="news-image" />
+                    <p class="news-date">Last updated:   02 August 2021, 13:02</p>
+                    <p class="news-blurb">Governments are in turmoil as the virus continues to spread. All countries have shut their borders in an effort to contain the virus. Increased levels of aggression and violence seen in infected cases. Hospitals are severely understaffed across the world. <span>See more...</span></p>
+                    
                     <br />
+                    
                     <img src="assets/site-images/breaking-news-virus.png" alt="Breaking News - O-CODIV-21 virus recently discovered" class="news-image" />
-                    <p>Scientists have discovered a mutation of the virus  nCOVID-19 in Southern Thailand, now named O-COVID-21. Those infected by O-COVID-21 have  increased levels of aggression and violence. More than 50,000 cases have been reported in Russia and China. <span>See more...</span></p>
+                    <p class="news-date">Last updated:   23 July 2021, 13:41</p>
+                    <p class="news-blurb">Scientists have discovered a mutation of the virus  nCOVID-19 in Southern Thailand, now named O-COVID-21. Those infected by O-COVID-21 have  increased levels of aggression and violence. More than 50,000 cases have been reported in Russia and China. <span>See more...</span></p>
                 </div>
                 <div class="tweets">
                     <img src="assets/site-images/twitter-feed-1.png" alt="Tweet by @Jazzy_baby273- Mum's acting weird! She had some red stuff in her eyes and now she keeps trying to bite me. Good thing I put a lock on my door last week!">
@@ -88,10 +130,10 @@
     <a href="#top"><button class="top"><i class="fas fa-arrow-circle-up"></i></button></a>
 
     <footer class="footer-content">
-		<a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
-		<a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)"><i class="fab fa-instagram-square"></i></a>
-		<a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-        <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Find us on YouTube (link opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+		<a href="https://www.facebook.com/TheZombieSurvivalGuide/" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
+		<a href="https://www.instagram.com/scoutsvszombies/?hl=en" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)"><i class="fab fa-instagram-square"></i></a>
+		<a href="https://twitter.com/ZombieApocGuy" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://www.youtube.com/watch?v=V0P_xSxq348" target="_blank" rel="noopener" aria-label="Find us on YouTube (link opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
 	</footer>
 </body>
 </html>

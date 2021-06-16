@@ -135,9 +135,14 @@ The information above was then organized in a hierarchical tree structure showin
 ![Site Map](assets/readme-files/sitemap.png)
 
 #### Skeleton
-Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of ![Balsamiq](https://balsamiq.com/).
+Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of [Balsamiq](https://balsamiq.com/).
 
 ![Site Wireframes](assets/readme-files/wireframe-all-pages.png)
+
+In addition to this, more realistic wireframes were made using [Figma] (https://www.figma.com/). These wireframes made some improvements upon the initial wireframes with regards to layout and features. but stayed mostly true to the original design.
+
+![Homepage Detailed Wireframe](assets/readme-files/figma-homepage-mobile.PNG)
+![Homepage Detailed Wireframe](assets/readme-files/figma-homepage-desktop.PNG)
 
 ### Design
 #### Colour Scheme

@@ -11,11 +11,12 @@
 
 <body>
 
-    <header class="header-content head" id="top">
+    <header class="header-content head" id="top-defence">
         <h1 class="main-heading">Survival Guild</h1>
         <h5 class="slogan">Leading Experts In The Apocolypse</h5>
     </header>
 
+    <!-- Menu for screens larger than 950px -->
     <nav class="menu">
         <ul id="nav-bar">
             <li>
@@ -39,13 +40,46 @@
         </ul>
     </nav>
 
+    <!-- Menu for screens 950px and smaller -->
+    <section  class="ham-menu">
+        <a href="#hamburger-menu" id="main-menu-toggle" class="menu-toggle" aria-label="Click to open main menu">
+            <span class="fa fa-bars" aria-hidden="true"></span>
+        </a>
+
+        <nav id="hamburger-menu" class="hamburger-menu" aria-label="Main Menu">
+            <a href="#main-menu-toggle" id="main-menu-close" class="menu-close" aria-label="Click to close main menu">
+                <span class="fa fa-close" aria-hidden="true"></span>
+            </a>
+            <ul id="ham-menu-content">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="survival-tips.html">Survival Tips</a>                    </li>
+                <li>
+                    <a href="camp-setup.html">Camp Setup</a>
+                </li>
+                <li>
+                    <a href="defence-tips.html">Defence Tips</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                    </li>
+                <li>
+                    <a href="competition.html">Competition</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="#main-menu-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
+    </section>
+
     <div class="container">
         <div class="content">
 
         </div>
     </div>
         
-    <a href="#top"><button class="top"><i class="fas fa-arrow-circle-up"></i></button></a>
+    <a href="#top"><button class="top-defence"><i class="fas fa-arrow-circle-up"></i></button></a>
 
     <footer class="footer-content">
         <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)"><i class="fab fa-facebook-square"></i></a>

@@ -40,15 +40,15 @@
 
 .main-heading {
     font-family: 'Special Elite', sans-serif;
-    font-size: 55px;
+    font-size: 60px;
     text-align: center;
-    padding: 40px 0 0 0;
+    padding: 30px 0 0 0;
     margin: 0, auto;
 }
 
 .slogan {
     font-family: Oswald, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     padding: 0 auto 5vh 0;
     margin: 0 auto;
@@ -62,7 +62,7 @@
     background-color: #EFF4F0;
     display: inline-block;
     border-radius: 10px;
-    height: 35px;
+    height: 25px;
     width: 100px;
     margin: 10px 1vw;
 }    
@@ -71,14 +71,14 @@
     color: #36454F;
     vertical-align: text-top;
     font-family: "Oswald", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
 }
 
 #nav-bar-content {
     text-align: center;
     background-color: #9FB396;
-    height: 55px;
+    height: 45px;
 }
 
 
@@ -93,21 +93,24 @@
 .intro-heading {
     text-align: center;
     font-family: 'Special Elite', sans-serif;
-    font-size: 60px;
-    padding-bottom: 2rem;
+    font-size: 47px;
+    padding-bottom: 1rem;
+    color: #383838;
 }
 
 .intro-text p {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 550;
     padding: 3rem 5% 0 5%;
+    color: #383838;
 }
 
 #intro-details {
-    font-size: 20px;
+    font-size: 16px;
     padding: 2rem 0 20px 5%;
+    font-weight: 500;
 }
 
 
@@ -116,24 +119,25 @@
 /* The State of the World */
 .text-left {
     width: 45%;
-    padding: 1rem 1rem 0 3rem;
+    padding: 0.5rem 0.5rem 0 2rem;
     border: 20px solid #DFE7DE;
     float: left;
     background-color: #DFE7DE;
-    color: #36454F;
+    color: #383838;
 }
 
 .world-news h2 {
     font-family: 'Oswald', sans-serif;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 35px;
+    text-decoration: underline;
 }
 
 .world-news p {
     font-family: 'Open Sans', sans-serif;
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     padding: 1rem;
 }
 
@@ -141,32 +145,34 @@
 /* News Feed */
 .text-right {
     width: 45%;
-    padding-top: 2px;
     float: right;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
-    padding-bottom: 5rem;
     background-color: #DFE7DE;
-    padding: 0 2.5%;
+    padding: 1rem 2.5% 5rem;
 }
 
 .news-feed h2 {
+    width: 100%;
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    color: #36454F;
+    color: #383838;
     padding: 1rem;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 35px;
     text-transform: uppercase;
+    padding-bottom: 50px;
+    text-decoration: underline;
 }
 
 .news-blurb {
     padding-top: 30px;
-    font-size: 18px;
+    padding-bottom: 40px;
+    font-size: 20px;
 }
 
 .news-date {
-    font-size: 12px;
+    font-size: 16px;
     font-style: italic;
 }
 
@@ -188,28 +194,32 @@
 /* Twitter Feed */
 .tweets img {
     max-width: 90%;
-    padding-top: 2rem;
-    padding-left: 5%;
+    padding: 1rem 5% 5% 5%;
     text-align: center;
 }
 
 .tweets h2 {
-    font-family: 'Oswald';
+    font-family: 'Oswald', sans-serif;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 35px;
     float: left;
     color: #383838;
     text-align: center;
     padding-top: 70px;
-    padding-left: 40%;
+    width: 100%;
+    padding-bottom: 54px;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .tweets {
-    padding: 60px auto 40px 8vw;
-    margin-bottom: 80px;
+    padding: 60px 1% 10px 1%;
+    margin-bottom: 50px;
     float: left;
     clear: left;
     width: 45%;
+    background-color: #DFE7DE;
+    box-sizing: border-box;
 }
 
 
@@ -237,10 +247,10 @@ footer a {
 
 
 /* Back-To-Top Button Configuration - CSS code found on https://secluded.site/adding-a-better-scroll-to-top-button-without-javascript/ */
-.top {
+.top-home {
     position: fixed;
     bottom: 5rem;
-    right: 1rem;
+    right: 5%;
     max-width: 50px;
     max-height: 50px;
     width: 100%;
@@ -256,6 +266,62 @@ footer a {
     cursor: pointer;
 }
 
+.top-survive {
+    position: fixed;
+    bottom: 5rem;
+    right: 5%;
+    max-width: 50px;
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+    padding: .5px;
+    border-radius: 8px;
+    justify-content: center;
+    background: #EFF4F0;
+    color: #305356;
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.top-camp {
+    position: fixed;
+    bottom: 5rem;
+    right: 5%;
+    max-width: 50px;
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+    padding: .5px;
+    border-radius: 8px;
+    justify-content: center;
+    background: #EFF4F0;
+    color: #305356;
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.top-defence {
+    position: fixed;
+    bottom: 5rem;
+    right: 5%;
+    max-width: 50px;
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+    padding: .5px;
+    border-radius: 8px;
+    justify-content: center;
+    background: #EFF4F0;
+    color: #305356;
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 /* Media Queries */
 /* For large screens sizes 1200px wide and up */
@@ -265,7 +331,7 @@ footer a {
     }
 }
 
-/* For large screens sizes 1200px wide and down */
+/* For large to medium screens sizes 1200px wide and down */
 @media screen and (max-width: 1200px) {
     .nav-bar{
         display: none;
@@ -275,6 +341,7 @@ footer a {
         display: none;
     }
 
+    /* Hamburger Menu - Code adapted from Mark Caron's work on https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 */
     .menu-toggle {
         display: inline-block;
         padding: .50em 15px;
@@ -388,23 +455,120 @@ footer a {
         }
     }
 
-
-
+    /* Banner Heading and Introduction */
     .intro-text h1 {
         font-size: 40px;
     }
-}
+    .main-heading {
+        font-size: 40px;
+    }
 
-/* For medium screens size from 950px wide and down */
-/* Hamburger Menu - Code adapted from Mark Caron's work on https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 */
-@media screen and (max-width: 950px) {
+    .slogan {
+        font-size: large;
+        padding-bottom: 1rem;
+    }
+
     .intro-text h1 {
-        font-size: 30px;
+        font-size: 25px;
+        padding: 1em 0 0;
+    }
+
+    .intro-text p {
+        font-size: 18px;
+        padding: 2em 0 0 ;
+    }
+
+    #intro-details {
+        font-size: 14px;
+        padding-bottom: 1rem;
     }
 
     .intro-text {
         padding: 0;
     }
 
+    /* News Feed, Tweets and World News */
+    .news-section {
+        padding-top: 2rem;
+    }
+
+    .text-left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .world-news h2 {
+        padding-bottom: 1em;
+        font-size: 30px;
+    }
+
+    .world-news p {
+        padding: 1rem 0 2rem;
+    }
+
+    .text-right {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .news-feed h2 {
+        padding-bottom: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .news-feed img {
+        padding-top: 0;
+        border: 10px solid #383838;
+    }
+
+    .tweets {
+        width: 100%;
+        padding-top: 1rem;
+    }
+
+    .tweets h2 {
+        width: 95%;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .tweets img {
+        max-width: 100%;
+        padding: 0;
+        border: 10px solid #383838;
+        margin: 1rem 0;
+    }
+
+    /*  */
+}
+
+/* For mobile screens 950px wide and down */
+@media screen and (max-width: 950px) {
+    .content {
+        width: 90%;
+    }
     
+    .intro-text h1 {
+        font-size: 40px;
+    }
+
+    .world-news h2 {
+        padding-bottom: 1em;
+        font-size: 30px;
+    }
+
+    .news-feed h2 {
+        padding-bottom: 1rem;
+        font-size: 30px;
+    }
+
+    .tweets h2 {
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 30px;
+    }
+    .tweets img {
+        width: 95%;
+    }
 }

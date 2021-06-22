@@ -119,10 +119,6 @@
     font-weight: 500;
 }
 
-/* Competion Banner */
-.comp-banner {
-    width: 100%;
-}
 
 /* Main Text on Homepage */
 /* The State of the World */
@@ -229,6 +225,24 @@
     width: 45%;
     background-color: #DFE7DE;
     box-sizing: border-box;
+}
+
+
+/* Competition Page */
+.comp-banner {
+    width: 100%;
+}
+
+.label {
+    font-family: 'Open Sans', sans-serif;
+    color: #383838;
+    
+}
+
+.input-box {
+    color: #383838;
+    background-color: #EFF4F0;
+    
 }
 
 

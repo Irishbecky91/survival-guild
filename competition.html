@@ -82,31 +82,45 @@
                     <br>
                     <img class="comp-banner" src="assets/site-images/survival-kit-comp.png" alt="Cometition banner - Enter to win a free survival kit">
                 </div>
+            </section>
+
+            <section>
                 <div class="text-style">
                     <h3>Fill in our form below and answer the question for your chance to win this amazing survival kit</h3>
-                    <form action="POST">
-                        <div>
-                            <label class="label" for="fname">First Name</label>
-                            <input class="input-box" type="name" name="fname" placeholder="First Name"/>
-                            <label class="label" for="lname">Last Name</label>
-                            <input class="input-box" type="name" name="lname" placeholder="Last Name" />
-                            <br>
-                            <label class="label" for="bday">Date of Birth</label>
-                            <input class="input-box" type="date" name="bday">
-                            <label class="label" for="email">Email Address</label>
-                            <input class="input-box" type="email" name="email" id="email" placeholder="Email Address" />
-                            <br>
-                            <p>How many varients of O-COVID-21 have been discovered?</p>
-                            <label class="label" for="var-1">1</label>
-                            <input type="radio">
-                            <label class="label" for="var-2">2</label>
-                            <input type="radio">
-                            <label class="label" for="var-3">3</label>
-                            <input type="radio">
-                            <br>
-                            <input type="submit" name="submit" id="submit">
-                        </div>
+                    <form action="POST" action="https://formdump.codeinstitute.net/">
+                        <fieldset>
+                            <legend>
+                                <label class="label" for="fname">First Name</label>
+                                <input class="input-box" type="name" name="fname" placeholder="First Name"/>
+                                <br>
+                                <label class="label" for="lname">Last Name</label>
+                                <input class="input-box" type="name" name="lname" placeholder="Last Name" />
+                                <br>
+                                <label class="label" for="bday">Date of Birth</label>
+                                <input class="input-box" type="date" name="bday">
+                                <br>
+                                <label class="label" for="email">Email Address</label>
+                                <input class="input-box" type="email" name="email" id="email" placeholder="Email Address" />
+                                <br>
+                                <p>How many varients of O-COVID-21 have been discovered?</p>
+                                <label class="label" for="var-1">1</label>
+                                <input class="check" type="radio" id="answer-1" name="entry-answer" />
+                                <label class="label" for="var-2">2</label>
+                                <input class="check" type="radio" id="answer-2" name="entry-answer" />
+                                <label class="label" for="var-3">3</label>
+                                <input class="check" type="radio" id="answer-3" name="entry-answer" />
+                                <br>
+                                <input type="submit" value="Submit your Entry" id="entry-submit">
+                                <input type="reset" value="Clear Form" id="entry-reset">
+                            </legend>
+                        </fieldset>
                     </form>
+                </div>
+            </section>
+
+            <section>
+                <div>
+                    <label for=""></label>
                 </div>
             </section>
         </div>

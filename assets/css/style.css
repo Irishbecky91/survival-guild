@@ -233,16 +233,89 @@
     width: 100%;
 }
 
+.h2-style {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 2rem 0;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+legend {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-left {
+    width: 45%;
+    border: 20px solid #DFE7DE;
+    float: left;
+    background-color: #DFE7DE;
+    color: #383838;
+}
+
 .label {
     font-family: 'Open Sans', sans-serif;
     color: #383838;
-    
+    text-align: center;
+    padding-left: 5%;
+    margin-top: 2rem;
+}
+
+.text-input {
+    padding: 30px 10% 0;
 }
 
 .input-box {
     color: #383838;
     background-color: #EFF4F0;
-    
+    width: 150px;
+    margin: 0 5% 10px 5%;
+    border-radius: 5px;
+}
+
+#question {
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Open Sans'sans-serif;
+    padding: 20px 10% 0;
+}
+
+.row {
+    text-align: left;
+}
+
+.label-radio {
+    padding-left: 15%;
+    padding-right: 10px;
+}
+
+.buttons {
+    margin: 15px 10% 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    float: left;
+}
+
+#entry-submit {
+    background-color: #305356;
+    color: #eed202;
+    width: 150px;
+}
+
+#entry-submit:hover {
+    background-color: #eed202;
+    color: #305356;
+}
+
+#entry-reset {
+    background-color: #eed202;
+    color: #305356;
+    width: 150px;
+}
+
+#entry-reset:hover {
+    background-color: #305356;
+    color:#eed202;
 }
 
 
@@ -563,7 +636,8 @@ footer a {
         margin: 1rem 0;
     }
 
-    /*  */
+
+
 }
 
 /* For mobile screens 950px wide and down */
@@ -571,8 +645,6 @@ footer a {
     .content {
         width: 90%;
     }
-
-    
     
     .intro-text h1 {
         font-size: 40px;
@@ -596,5 +668,16 @@ footer a {
     }
     .tweets img {
         width: 95%;
+    }
+
+    /* Competition Page */
+    .form-left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .form-right {
+        width: 100%;
+        padding: 0;
     }
 }

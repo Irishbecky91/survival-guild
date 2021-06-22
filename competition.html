@@ -85,36 +85,51 @@
             </section>
 
             <section>
-                <div class="text-style">
-                    <h3>Fill in our form below and answer the question for your chance to win this amazing survival kit</h3>
-                    <form action="POST" action="https://formdump.codeinstitute.net/">
+                <h2 class="h2-style">Fill in our form below and answer the question for your chance to win this amazing survival kit</h2>
+                <div class="form-left">
+                    <form class="text-style" action="POST" action="https://formdump.codeinstitute.net/">
                         <fieldset>
-                            <legend>
-                                <label class="label" for="fname">First Name</label>
+                            <legend>WIN A FREE SURVIVAL KIT</legend>
+                            <div class="text-input">
+                                <label class="label" for="fname">First Name:</label>
+                                <br>
                                 <input class="input-box" type="name" name="fname" placeholder="First Name"/>
                                 <br>
-                                <label class="label" for="lname">Last Name</label>
+                                <label class="label" for="lname">Last Name:</label>
+                                <br>
                                 <input class="input-box" type="name" name="lname" placeholder="Last Name" />
                                 <br>
-                                <label class="label" for="bday">Date of Birth</label>
+                                <label class="label" for="bday">Date of Birth:</label>
+                                <br>
                                 <input class="input-box" type="date" name="bday">
                                 <br>
-                                <label class="label" for="email">Email Address</label>
+                                <label class="label" for="email">Email Address:</label>
+                                <br>
                                 <input class="input-box" type="email" name="email" id="email" placeholder="Email Address" />
+                            </div>
+
+                            <p id="question">How many varients of O-COVID-21 have been discovered?</p>
+                                
+                            <div class="answer-input">
+                                <label class="label-radio" for="var-1">1</label>
+                                <input type="radio" id="answer-1" name="entry-answer" />
                                 <br>
-                                <p>How many varients of O-COVID-21 have been discovered?</p>
-                                <label class="label" for="var-1">1</label>
-                                <input class="check" type="radio" id="answer-1" name="entry-answer" />
-                                <label class="label" for="var-2">2</label>
-                                <input class="check" type="radio" id="answer-2" name="entry-answer" />
-                                <label class="label" for="var-3">3</label>
-                                <input class="check" type="radio" id="answer-3" name="entry-answer" />
+                                <label class="label-radio" for="var-2">2</label>
+                                <input type="radio" id="answer-2" name="entry-answer" />
                                 <br>
+                                <label class="label-radio" for="var-3">3</label>
+                                <input type="radio" id="answer-3" name="entry-answer" />
+                            </div>
+                            <div class="buttons">
                                 <input type="submit" value="Submit your Entry" id="entry-submit">
+                                <br>
                                 <input type="reset" value="Clear Form" id="entry-reset">
-                            </legend>
+                            </div>
                         </fieldset>
                     </form>
+                </div>
+                <div class="text-right text-style">
+
                 </div>
             </section>
 

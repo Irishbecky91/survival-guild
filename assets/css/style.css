@@ -83,26 +83,34 @@
 /* Text and Image Styling - Home Page */
 
 /* intro Text */
-.intro-text {
+.text-style {
     color: #383838;
     padding: 1rem;
 }
 
-.intro-heading {
+.text-heading {
     text-align: center;
+    text-transform: uppercase;
     font-family: 'Special Elite', sans-serif;
     font-size: 47px;
     padding-bottom: 1rem;
     color: #383838;
 }
 
-.intro-text p {
+.text-style p {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 550;
     padding: 3rem 5% 0 5%;
     color: #383838;
+}
+
+.text-style h3 {
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    color: #383838;
+    padding: 2rem 0;
 }
 
 #intro-details {
@@ -184,7 +192,7 @@
     padding-top: 5%;
 }
 
-.news-section {
+.main-body {
     box-sizing: border-box;
     width: 100%;
     text-align: center;
@@ -490,7 +498,7 @@ footer a {
     }
 
     /* News Feed, Tweets and World News */
-    .news-section {
+    .main-body {
         padding-top: 2rem;
     }
 

@@ -11,13 +11,11 @@
 .container {
     background-color: #E2DDDC;
     width: 100%;
-    /* height: auto; */
 }
 
 .content {
     background-color: #EFF4F0;
     width: 75%;
-    /* height: auto; */
     margin: 0 auto;
     background-position: center;
     padding: 5%;
@@ -113,9 +111,12 @@
     font-weight: 500;
 }
 
+/* Competion Banner */
+.comp-banner {
+    width: 100%;
+}
 
 /* Main Text on Homepage */
-
 /* The State of the World */
 .text-left {
     width: 45%;
@@ -391,6 +392,7 @@ footer a {
         padding: .75em 15px;
         line-height: 1em;
         font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
         color: #eed202;
         text-decoration: none;
         border-bottom: 1px solid #383838;
@@ -547,6 +549,8 @@ footer a {
     .content {
         width: 90%;
     }
+
+    
     
     .intro-text h1 {
         font-size: 40px;

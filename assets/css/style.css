@@ -100,7 +100,7 @@
 .text-style p {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 550;
     padding: 3rem 5% 0 5%;
     color: #383838;
@@ -115,7 +115,7 @@
 
 #intro-details {
     font-size: 16px;
-    padding: 2rem 0 20px 5%;
+    padding: 1rem 0 20px 5%;
     font-weight: 500;
 }
 
@@ -142,8 +142,8 @@
 .world-news p {
     font-family: 'Open Sans', sans-serif;
     text-align: left;
-    font-size: 20px;
-    padding: 1rem;
+    font-size: 16px;
+    padding: 20px 20px 0 20px;
 }
 
 
@@ -172,12 +172,12 @@
 
 .news-blurb {
     padding-top: 30px;
-    padding-bottom: 40px;
-    font-size: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
 }
 
 .news-date {
-    font-size: 16px;
+    font-size: 12px;
     font-style: italic;
 }
 
@@ -210,15 +210,15 @@
     float: left;
     color: #383838;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 20px;
     width: 100%;
-    padding-bottom: 54px;
+    padding-bottom: 20px;
     text-transform: uppercase;
     text-decoration: underline;
 }
 
 .tweets {
-    padding: 60px 1% 10px 1%;
+    padding: 30px 1% 10px 1%;
     margin-bottom: 50px;
     float: left;
     clear: left;
@@ -251,6 +251,15 @@ legend {
     float: left;
     background-color: #DFE7DE;
     color: #383838;
+}
+
+.form-right {
+    width: 45%;
+    border: 20px solid #DFE7DE;
+    float: right;
+    background-color: #DFE7DE;
+    color: #383838;
+    margin-bottom: 50px;
 }
 
 .label {
@@ -316,6 +325,36 @@ legend {
 #entry-reset:hover {
     background-color: #305356;
     color:#eed202;
+}
+
+#terms {
+    height: 450px;
+    width: 100%;
+    overflow: scroll;
+}
+
+.terms-style p {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+    padding: 0 5%;
+    color: #383838;
+}
+
+.underline {
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    color: #383838;
+    padding: 2rem 0;
+    text-decoration: underline;
+}
+
+.list-style {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 90%;
+    padding: 10px 8%;
 }
 
 
@@ -600,7 +639,7 @@ footer a {
     }
 
     .world-news p {
-        padding: 1rem 0 2rem;
+        padding: 1rem 0;
     }
 
     .text-right {

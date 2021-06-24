@@ -336,9 +336,10 @@ legend {
 
 /* Terms and Conditions */
 #terms {
-    height: 450px;
+    height: 460px;
     width: 100%;
     overflow: scroll;
+    padding-bottom: 30px;
 }
 
 .terms-style p {
@@ -363,6 +364,15 @@ legend {
     font-size: 16px;
     width: 90%;
     padding: 10px 8%;
+}
+
+/* Form Dump Files */
+.text-dump p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 20px 30px;
+    color: #383838;
 }
 
 

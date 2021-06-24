@@ -41,14 +41,13 @@
     font-size: 60px;
     text-align: center;
     padding: 30px 0 0 0;
-    margin: 0, auto;
+    margin: 0;
 }
 
 .slogan {
     font-family: Oswald, sans-serif;
     font-size: 25px;
     text-align: center;
-    padding: 0 auto 5vh 0;
     margin: 0 auto;
     padding-bottom: 3vh;
     font-weight: normal;
@@ -101,7 +100,7 @@
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    font-weight: 550;
+    font-weight: 500;
     padding: 3rem 5% 0 5%;
     color: #383838;
 }
@@ -292,7 +291,7 @@ legend {
 #question {
     text-align: left;
     font-size: 15px;
-    font-family: 'Open Sans'sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding: 20px 10% 0;
 }
 
@@ -346,7 +345,7 @@ legend {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    font-weight: 550;
+    font-weight: 500;
     padding: 0 5%;
     color: #383838;
 }

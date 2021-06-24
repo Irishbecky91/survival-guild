@@ -228,7 +228,7 @@
 }
 
 
-/* Competition Page */
+/* Competition Page -  */
 .comp-banner {
     width: 100%;
 }
@@ -245,6 +245,7 @@ legend {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Competition Page Layout - Desktop */
 .form-left {
     width: 45%;
     border: 20px solid #DFE7DE;
@@ -262,6 +263,7 @@ legend {
     margin-bottom: 50px;
 }
 
+/* Form Submission */
 .label {
     font-family: 'Open Sans', sans-serif;
     color: #383838;
@@ -327,6 +329,7 @@ legend {
     color:#eed202;
 }
 
+/* Terms and Conditions */
 #terms {
     height: 450px;
     width: 100%;
@@ -401,7 +404,7 @@ footer a {
     cursor: pointer;
 }
 
-.top-survive {
+/* .top-survive {
     position: fixed;
     bottom: 5rem;
     right: 5%;
@@ -456,7 +459,7 @@ footer a {
     font-weight: 800;
     text-decoration: none;
     cursor: pointer;
-}
+} */
 
 /* Media Queries */
 /* For large screens sizes 1200px wide and up */

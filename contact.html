@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Rebecca Rayner" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://kit.fontawesome.com/9d283dbd3f.js" crossorigin="anonymous"></script>
     <title>Contact Us</title>
 </head>
 
@@ -80,14 +81,56 @@
                 <p>If you see any signs of infection in those around you, or you would like to know more about the virus, fill in the form below to let us know. You can also contact us by email, post, or call us on the number below.</p>
             </section>
             <section>
-                <div class="text-left">
-                    <h3>Contact Details</h3>
+                <div class="contact-left">
+                    <fieldset>
+                        <legend>CONTACT DETAILS</legend>
+                        <div class="text-input">
+                            <p class="contact-details"><i class="fas fa-phone-alt"></i> 020-918-7177</p>
+                            <br>
+                            <p class="contact-details"><i class="fas fa-at"></i> survivalguild@ocovid.org</p>
+                            <br>
+                            <p class="contact-details"><i class="fas fa-map-marker-alt"></i> The Survival Guild,</p>
+                            <p class="contact-details2">102 Apocalypse Lane,</p>
+                            <p class="contact-details2">Killarney,</p>
+                            <p class="contact-details2">Kerry</p>
+                        </div>
+                        <div class="map-section">
+                            <section id="map-wrapper">
+                                <iframe id="map" src="https://www.google.com/maps/place/Northern+Ireland's+Secret+Bunker/@54.4577765,-6.5139214,17z/data=!3m1!4b1!4m5!3m4!1s0x4860f1ee2eb442a3:0x4930fc2da898273!8m2!3d54.4577765!4d-6.5117327" width="100%" height="300"></iframe>
+                            </section>
+                        </div>
+                    </fieldset>
                 </div>
             </section>
             <section>
                 <div class="text-right">
-                    <h3>Contact Form</h3>
-                    <form action="dump-contact"></form>
+                    <form class="text-style" action="dump-contact.html">
+                        <fieldset>
+                            <legend>CONTACT FORM</legend>
+                            <div class="text-input">
+                                <label class="label" for="fname">First Name:</label>
+                                <br>
+                                <input class="input-box" type="name" name="fname" placeholder="First Name"/>
+                                <br>
+                                <label class="label" for="lname">Last Name:</label>
+                                <br>
+                                <input class="input-box" type="name" name="lname" placeholder="Last Name" />
+                                <br>
+                                <label class="label" for="email">Email Address:</label>
+                                <br>
+                                <input class="input-box" type="email" name="email" id="email" placeholder="Email Address" />
+                                <br>
+                                <label class="label" for="email">Enter your message here:</label>
+                                <br>
+                                <textarea name="message"></textarea> 
+                            </div>
+                            <div class="buttons">
+                                <input type="submit" value="Send message" class="entry-submit">
+                                <br>
+                                <input type="reset" value="Clear Form" class="entry-reset">
+                            </div>
+                        </fieldset>
+                    </form>
                 </div>
             </section>
         </div>

@@ -123,7 +123,7 @@
 /* The State of the World */
 .text-left {
     width: 45%;
-    padding: 0.5rem 0.5rem 0 2rem;
+    padding: 1rem 2.5% 0;
     border: 20px solid #DFE7DE;
     float: left;
     background-color: #DFE7DE;
@@ -272,7 +272,6 @@ legend {
     font-family: 'Open Sans', sans-serif;
     color: #383838;
     text-align: center;
-    padding-left: 5%;
     margin-top: 2rem;
 }
 
@@ -284,7 +283,7 @@ legend {
     color: #383838;
     background-color: #EFF4F0;
     width: 150px;
-    margin: 0 5% 10px 5%;
+    margin: 0 0 10px;
     border-radius: 5px;
 }
 
@@ -312,24 +311,24 @@ legend {
     float: left;
 }
 
-#entry-submit {
+.entry-submit {
     background-color: #305356;
     color: #eed202;
     width: 150px;
 }
 
-#entry-submit:hover {
+.entry-submit:hover {
     background-color: #eed202;
     color: #305356;
 }
 
-#entry-reset {
+.entry-reset {
     background-color: #eed202;
     color: #305356;
     width: 150px;
 }
 
-#entry-reset:hover {
+.entry-reset:hover {
     background-color: #305356;
     color:#eed202;
 }
@@ -365,6 +364,53 @@ legend {
     width: 90%;
     padding: 10px 8%;
 }
+
+/* Contact Page */
+textarea {
+    font-weight: normal;
+    width: 100%;
+    height: 150px;
+}
+
+.fas {
+    width: 20px;
+    height: 20px;
+    color: #383838;
+}
+
+.contact-details {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #383838;
+}
+
+.contact-details2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #383838;
+    padding-left: 24px;
+}
+
+.contact-left {
+    width: 45%;
+    padding: .75rem;
+    border: 20px solid #DFE7DE;
+    float: left;
+    background-color: #DFE7DE;
+    color: #383838;
+}
+
+#map-wrapper {
+    height: 300px;
+    padding: 1rem;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
 
 /* Form Dump Files */
 .text-dump p {
@@ -693,8 +739,10 @@ footer a {
         margin: 1rem 0;
     }
 
-
-
+    .contact-left {
+        width: 100%;
+        padding: 1.5%;
+    }
 }
 
 /* For mobile screens 950px wide and down */

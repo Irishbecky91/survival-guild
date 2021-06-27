@@ -230,6 +230,71 @@ span {
 }
 
 
+/* Survival Tips Page */
+#page-links li {
+    background-color: #DFE7DE;
+    display: inline-block;
+    border-radius: 10px;
+    height: 35px;
+    width: 150px;
+    margin: 10px 1vw;
+    border: 2px solid #383838;
+}    
+
+#page-links a {
+    color: #383838;
+    vertical-align: text-top;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#page-links {
+    text-align: center;
+}
+
+.main-style p {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1rem 0 2rem;
+    color: #383838;
+}
+
+.tips-main h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    margin: 1rem 1rem 2rem;
+    color: #383838;
+}
+
+.tips-main h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: #383838;
+    padding: 1rem;
+}
+
+.tips-main p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #383838;
+    padding: 1em;
+    margin-bottom: 3rem;
+}
+
+.main-image {
+    width: 50%;
+    margin-top: 2rem;
+    border-radius: 20px;
+    border: 1px solid #383838;
+}
+
+
 /* Competition Page -  */
 .comp-banner {
     width: 100%;

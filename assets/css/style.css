@@ -262,29 +262,36 @@ span {
     color: #383838;
 }
 
-.tips-main h2 {
+.sub-main h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 30px;
     text-decoration: underline;
     text-align: center;
-    margin: 1rem 1rem 2rem;
+    margin: 3rem 1rem 1rem;
     color: #383838;
 }
 
-.tips-main h3 {
+.sub-main h3 {
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
     color: #383838;
     padding: 1rem;
 }
 
-.tips-main p{
+.sub-main p{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #383838;
     padding: 1em;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+}
+
+.main-list {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #383838;
+    padding: 1em 5%;
 }
 
 .main-image {
@@ -292,6 +299,18 @@ span {
     margin-top: 2rem;
     border-radius: 20px;
     border: 1px solid #383838;
+}
+
+.wide-image {
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    border: 1px solid #383838;
+}
+
+.video {
+    width: 80%;
+    margin: 0 10% 3rem;
 }
 
 

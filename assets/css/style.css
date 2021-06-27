@@ -132,9 +132,8 @@
 
 .world-news h2 {
     font-family: 'Oswald', sans-serif;
-    padding-bottom: 50px;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     text-decoration: underline;
 }
 
@@ -153,7 +152,7 @@
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     background-color: #DFE7DE;
-    padding: 1rem 2.5% 0;
+    padding: 1rem 2.5% 18px;
 }
 
 .news-feed h2 {
@@ -161,11 +160,11 @@
     text-align: center;
     font-family: 'Oswald', sans-serif;
     color: #383838;
-    padding: 1rem;
+    padding: 1rem 1rem 0;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     text-transform: uppercase;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
     text-decoration: underline;
 }
 
@@ -184,7 +183,7 @@
     width: 100%;
     float: right;
     height: auto;
-    padding-top: 38px;
+    padding-top: 33px;
 }
 
 .main-body {
@@ -210,7 +209,7 @@ span {
 .tweets h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     float: left;
     color: #383838;
     text-align: center;
@@ -222,7 +221,7 @@ span {
 }
 
 .tweets {
-    padding: 30px 1% 10px 1%;
+    padding: 30px 1% 20px 1%;
     margin-bottom: 50px;
     float: left;
     clear: left;
@@ -369,10 +368,10 @@ legend {
 textarea {
     font-weight: normal;
     width: 100%;
-    height: 150px;
+    height: 207px;
 }
 
-.fas {
+.contact-icon {
     width: 20px;
     height: 20px;
     color: #383838;
@@ -401,7 +400,7 @@ textarea {
 }
 
 #map-wrapper {
-    height: 300px;
+    height: 250px;
     padding: 1rem;
 }
 

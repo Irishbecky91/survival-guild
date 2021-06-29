@@ -511,6 +511,82 @@ textarea {
     height: 900px;
 }
 
+.error-text, .bike-text {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.error-text h1 {
+    font-family: 'Special Elite', sans-serif;
+    font-size: 200px;
+    padding-top: 50px;
+}
+
+.error-text h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    padding-bottom: 250px;
+}
+
+.error-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    padding: 0 15% 10px;
+    font-weight: bolder;
+}
+
+.error-text ol{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding: 0 18%;
+    font-weight: bolder;
+}
+
+.error-text a {
+    color: greenyellow;
+}
+
+.bike-page {
+    background-image: url("https://images.unsplash.com/photo-1494376877685-d3d2559d4f82?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.bike-text h1 {
+    font-family: 'Special Elite', sans-serif;
+    font-size: 100px;
+    padding-top: 70px;
+    padding-bottom: 250px;
+}
+
+.bike-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding: 0 10% 10px;
+}
+
+.bike-text ol{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 0 15%;
+}
+
+.bike-text a {
+    color: greenyellow;
+}
+
+.house-page {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/05/20/53/zombie-1801470_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
 
 /* Footer Styling */
 .footer-content {

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Special+Elite&display=swap');
 
-
 /* Background Styling */
 * {
     box-sizing: border-box;
@@ -25,7 +24,7 @@
     content: "";
     display: table;
     clear: both;
-  }
+}
 
 
 /* Heading Styling */
@@ -511,7 +510,7 @@ textarea {
     height: 1100px;
 }
 
-.error-text, .bike-text {
+.error-text, .bike-text, .text-500 {
     color: #FFFFFF;
     text-align: center;
     font-family: 'Special Elite', sans-serif;
@@ -519,12 +518,17 @@ textarea {
 
 .error-text h1 {
     font-size: 250px;
-    padding-top: 80px;
+    padding-top: 60px;
+}
+
+.error-text h4 {
+    font-size: 25px;
+    padding-bottom: 40px;
 }
 
 .error-text h2 {
     font-size: 30px;
-    padding-bottom: 350px;
+    padding-bottom: 300px;
 }
 
 .error-text p{
@@ -589,6 +593,43 @@ textarea {
     height: 1100px;
 }
 
+.text-500 h1 {
+    font-size: 200px;
+    padding-top: 30px;
+}
+
+.text-500 h4 {
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.text-500 h2 {
+    font-size: 30px;
+    padding-bottom: 350px;
+}
+
+.text-500 p{
+    font-size: 25px;
+    text-align: left;
+    padding: 0 15% 20px;
+    font-weight: bolder;
+}
+
+.text-500 ol{
+    font-size: 20px;
+    text-align: left;
+    padding: 20px 18%;
+    font-weight: bolder;
+}
+
+.text-500 li {
+    padding-bottom: 10px
+}
+
+.text-500 a {
+    color: greenyellow;
+}
+
 
 /* Footer Styling */
 .footer-content {
@@ -633,62 +674,6 @@ footer a {
     cursor: pointer;
 }
 
-/* .top-survive {
-    position: fixed;
-    bottom: 5rem;
-    right: 5%;
-    max-width: 50px;
-    max-height: 50px;
-    width: 100%;
-    height: 100%;
-    padding: .5px;
-    border-radius: 8px;
-    justify-content: center;
-    background: #EFF4F0;
-    color: #305356;
-    font-size: 2rem;
-    font-weight: 800;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.top-camp {
-    position: fixed;
-    bottom: 5rem;
-    right: 5%;
-    max-width: 50px;
-    max-height: 50px;
-    width: 100%;
-    height: 100%;
-    padding: .5px;
-    border-radius: 8px;
-    justify-content: center;
-    background: #EFF4F0;
-    color: #305356;
-    font-size: 2rem;
-    font-weight: 800;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.top-defence {
-    position: fixed;
-    bottom: 5rem;
-    right: 5%;
-    max-width: 50px;
-    max-height: 50px;
-    width: 100%;
-    height: 100%;
-    padding: .5px;
-    border-radius: 8px;
-    justify-content: center;
-    background: #EFF4F0;
-    color: #305356;
-    font-size: 2rem;
-    font-weight: 800;
-    text-decoration: none;
-    cursor: pointer;
-} */
 
 /* Media Queries */
 /* For large screens sizes 1200px wide and up */
@@ -913,6 +898,8 @@ footer a {
     }
 
     /* Error Pages */
+
+
     .error-text h1 {
         font-size: 200px;
         padding-top: 100px;
@@ -960,12 +947,36 @@ footer a {
     }
     
     .house-page {
-        background-image: url("https://cdn.pixabay.com/photo/2016/11/05/20/53/zombie-1801470_1280.jpg");
         height: 1100px;
+    }
+
+    .h1-500 {
+        font-size: 150px;
+        padding-top: 60px;
+    }
+    
+    .h4-500 {
+        font-size: 18px;
+    }
+
+    .text-500 h2 {
+        font-size: 25px;
+        padding-bottom: 350px;
+    }
+    
+    .text-500 p{
+        font-size: 20px;
+        text-align: center;
+        padding: 0 10% 15px;
+    }
+    
+    .text-500 ol{
+        font-size: 18px;
+        padding: 20px 15%;
     }
 }
 
-/* For mobile screens 950px wide and down */
+/* For tablets screens 950px wide and down */
 @media screen and (max-width: 950px) {
     .content {
         width: 90%;
@@ -1008,17 +1019,21 @@ footer a {
 
     /* Error Pages */
     .error-404 {
-        height: 820px;
+        height: 1100px;
     }
 
     .error-text h1 {
-        font-size: 100px;
-        padding-top: 50px;
+        font-size: 150px;
+        padding-top: 100px;
     }
     
+    .error-text h4 {
+        font-size: 18px;
+    }
+
     .error-text h2 {
         font-size: 25px;
-        padding-bottom: 250px;
+        padding-bottom: 350px;
     }
     
     .error-text p{
@@ -1054,7 +1069,14 @@ footer a {
     }
         
     .house-page {
-        background-image: url("https://cdn.pixabay.com/photo/2016/11/05/20/53/zombie-1801470_1280.jpg");
         height: 820px;
+    }
+
+    .h1-500 {
+        font-size: 150px;
+    }
+
+    .h4-500 {
+        font-size: 18px;
     }
 }

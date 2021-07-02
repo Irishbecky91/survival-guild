@@ -20,6 +20,7 @@
     padding: 5%;
 }
 
+/* This line of code was provided by Anthony O'Brien through Slack to fix a bug */
 .content:after {
     content: "";
     display: table;
@@ -293,7 +294,7 @@ span {
 }
 
 .main-image {
-    width: 50%;
+    width: 350px;
     margin-top: 2rem;
     border-radius: 20px;
     border: 1px solid #383838;
@@ -309,7 +310,7 @@ span {
 
 .video {
     width: 80%;
-    margin: 0 10% 3rem;
+    margin: 20px 10% 3rem;
 }
 
 
@@ -322,7 +323,7 @@ span {
 
 .unorder-list {
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px 5% 50px;
 }
 

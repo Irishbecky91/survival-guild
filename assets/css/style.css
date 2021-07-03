@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Special+Elite&family=Nosifer&display=swap');
 
 /* Background Styling */
 * {
@@ -294,23 +294,25 @@ span {
 }
 
 .main-image {
-    width: 350px;
-    margin-top: 2rem;
+    width: 50%;
+    max-width: 700px;
+    margin: 2rem auto 1rem;
     border-radius: 20px;
     border: 1px solid #383838;
-    margin-bottom: 1rem;
+    display: block;
 }
 
 .wide-image {
     width: 100%;
-    margin-bottom: 2rem;
+    margin: 1rem auto 2rem;
     border-radius: 20px;
     border: 1px solid #383838;
 }
 
 .video {
-    width: 80%;
-    margin: 20px 10% 3rem;
+    width: 70%;
+    max-width: 650px;
+    margin: 2rem 15% 3rem;
 }
 
 
@@ -581,14 +583,15 @@ textarea {
 
 .bike-text h1 {
     font-size: 100px;
-    padding-top: 150px;
-    padding-bottom: 400px;
+    padding-top: 50px;
+    padding-bottom: 350px;
 }
 
 .bike-text p{
-    font-size: 25px;
+    font-size: 30px;
     text-align: left;
     padding: 0 15% 20px;
+    font-weight: bolder;
 }
 
 .bike-text ol{
@@ -649,6 +652,14 @@ textarea {
     color: greenyellow;
 }
 
+.house-text h1 {
+    font-family: 'Nosifer', sans-serif;
+    color: #B7410e;
+    -webkit-text-fill-color: #B7410e;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #c96f49;
+}
+
 
 /* Footer Styling */
 .footer-content {
@@ -685,7 +696,7 @@ footer a {
     padding: .5px;
     border-radius: 8px;
     justify-content: center;
-    background: #EFF4F0;
+    background: #FFFFFF;
     color: #305356;
     font-size: 2rem;
     font-weight: 800;
@@ -696,11 +707,12 @@ footer a {
 
 /* Media Queries */
 /* For large screens sizes 1200px wide and up */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1201px) {
     .ham-menu {
         display: none;
     }
 }
+
 
 /* For large to medium screens sizes 1200px wide and down */
 @media screen and (max-width: 1200px) {
@@ -916,9 +928,24 @@ footer a {
         padding: 1.5%;
     }
 
+    /* survival pages, camp setup and defence against infected pages */
+    .main-image {
+        width: 40%;
+        max-width: 700px;
+    }
+    
+    .wide-image {
+        width: 90%;
+        max-width: 1000px;
+    }
+    
+    .video {
+        width: 70%;
+        max-width: 750px;
+    }
+
+
     /* Error Pages */
-
-
     .error-text h1 {
         font-size: 200px;
         padding-top: 100px;
@@ -995,6 +1022,7 @@ footer a {
     }
 }
 
+
 /* For tablets screens 950px wide and down */
 @media screen and (max-width: 950px) {
     .content {
@@ -1025,6 +1053,27 @@ footer a {
         width: 95%;
     }
 
+
+    /* survival pages, camp setup and defence against infected pages  */
+    .main-image {
+        width: 50%;
+        max-width: 400px;
+    }
+    
+    .wide-image {
+        width: 90%;
+        max-width: 850px;
+        margin-left: 5%;
+    }
+    
+    .video {
+        width: 80%;
+        max-width: 750px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
     /* Competition Page */
     .form-left {
         width: 100%;
@@ -1035,6 +1084,7 @@ footer a {
         width: 100%;
         padding: 0;
     }
+
 
     /* Error Pages */
     .error-404 {
@@ -1077,9 +1127,7 @@ footer a {
     }
     
     .bike-text p{
-        font-size: 16px;
-        text-align: center;
-        padding: 0 5% 10px;
+        font-size: 20px;
     }
     
     .bike-text ol{
@@ -1091,11 +1139,120 @@ footer a {
         height: 820px;
     }
 
-    .h1-500 {
-        font-size: 150px;
+    .top-home {
+        right: 2%;
+        }
+}
+
+
+/* For tablets screens 500px wide and down */
+@media screen and (max-width: 500px) {
+    .content {
+        width: 90%;
+    }
+    
+    .text-heading {
+        font-size: 40px;
     }
 
-    .h4-500 {
+    .world-news h2 {
+        padding-bottom: 1em;
+        font-size: 30px;
+    }
+
+    .news-feed h2 {
+        padding-bottom: 1rem;
+        font-size: 30px;
+    }
+
+    .tweets h2 {
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 30px;
+    }
+    .tweets img {
+        width: 95%;
+    }
+
+
+    /* survival pages, camp setup and defence against infected pages  */
+    .main-image {
+        width: 80%;
+    }
+    
+    .wide-image {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .video {
+        width: 100%;
+        margin: auto 0;
+    }
+
+
+    /* Competition Page */
+    .form-left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .form-right {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    /* Error Pages */
+    .error-404 {
+        height: 850px;
+    }
+
+    .error-text h1 {
+        padding-top: 50px;
+    }
+    
+    .error-text h4 {
         font-size: 18px;
     }
+
+    .error-text h2 {
+        font-size: 20px;
+        padding: 0 2.5% 200px;
+    }
+    
+    .error-text p{
+        padding: 0 2.5% 10px;
+        font-weight: bolder;
+    }
+    
+    .error-text ol{
+        margin: 10px 2.5%;
+        font-weight: bolder;
+    }
+    
+    .bike-page {
+        height: 850px;
+    }
+
+    .bike-text p{
+        font-size: 18px;
+    }
+            
+    .house-page {
+        height: 100%;
+    }
+
+    .house-text h1 {
+        font-size: 40px;
+        padding: 40px auto 220px;
+    }
+
+
+    /* Back-To-Top Button Configuration */
+    .top-home {
+        right: 1%;
+        bottom: 5.5%;
+        }
 }

@@ -309,10 +309,18 @@ span {
     border: 1px solid #383838;
 }
 
+.slim-image {
+    width: 30%;
+    max-width: 300px;
+    margin: 2rem auto 1rem;
+    border-radius: 20px;
+    border: 1px solid #383838;
+    display: block;
+}
+
 .video {
-    width: 70%;
-    max-width: 650px;
-    margin: 2rem 15% 3rem;
+    width: 60%;
+    margin: 2rem 20% 4rem;
 }
 
 
@@ -938,10 +946,16 @@ footer a {
         width: 90%;
         max-width: 1000px;
     }
+
+    .slim-image {
+        width: 40%;
+        max-width: 500px;
+    }
     
     .video {
         width: 70%;
-        max-width: 750px;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
 
@@ -1065,10 +1079,14 @@ footer a {
         max-width: 850px;
         margin-left: 5%;
     }
+
+    .slim-image {
+        width: 50%;
+        max-width: 400px;
+    }
     
     .video {
         width: 80%;
-        max-width: 750px;
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -1186,9 +1204,15 @@ footer a {
         margin-left: 0;
     }
     
+    .slim-image {
+        width: 90%;
+        max-width: 450px;
+    }
+
     .video {
         width: 100%;
-        margin: auto 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 
 

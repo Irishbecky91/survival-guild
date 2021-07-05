@@ -532,11 +532,12 @@ textarea {
 
 
 /* Error Pages */
+/* 404/500 Pages */
 .error-404 {
     background: url("https://images.unsplash.com/photo-1563702085776-b38c19bc42be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=789&q=80");
     background-size: cover;
     background-position: center;
-    height: 1100px;
+    height: 100vh;
 }
 
 .error-text, .bike-text, .text-500 {
@@ -545,30 +546,36 @@ textarea {
     font-family: 'Special Elite', sans-serif;
 }
 
+.back-color {
+    background-color: rgba(0, 0, 0,.6);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .error-text h1 {
-    font-size: 250px;
-    padding-top: 60px;
+    font-size: 200px;
+    padding-top: 10vh;
 }
 
 .error-text h4 {
-    font-size: 25px;
-    padding-bottom: 40px;
+    font-size: 20px;
+    padding-bottom: 1vh;
 }
 
 .error-text h2 {
-    font-size: 30px;
-    padding-bottom: 300px;
+    font-size: 25px;
+    padding-bottom: 30vh;
 }
 
 .error-text p{
-    font-size: 25px;
+    font-size: 20px;
     text-align: left;
-    padding: 0 15% 20px;
+    margin: 0 15% 20px;
     font-weight: bolder;
 }
 
 .error-text ol{
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     padding: 20px 18%;
     font-weight: bolder;
@@ -580,47 +587,6 @@ textarea {
 
 .error-text a {
     color: greenyellow;
-}
-
-.bike-page {
-    background-image: url("https://images.unsplash.com/photo-1494376877685-d3d2559d4f82?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
-    background-size: cover;
-    background-position: center;
-    height: 1100px;
-}
-
-.bike-text h1 {
-    font-size: 100px;
-    padding-top: 50px;
-    padding-bottom: 350px;
-}
-
-.bike-text p{
-    font-size: 30px;
-    text-align: left;
-    padding: 0 15% 20px;
-    font-weight: bolder;
-}
-
-.bike-text ol{
-    font-size: 20px;
-    text-align: left;
-    padding: 0 18%;
-}
-
-.bike-text a {
-    color: greenyellow;
-}
-
-.bike-text li {
-    padding-bottom: 10px
-}
-
-.house-page {
-    background-image: url("https://cdn.pixabay.com/photo/2016/11/05/20/53/zombie-1801470_1280.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 1100px;
 }
 
 .text-500 h1 {
@@ -653,19 +619,58 @@ textarea {
 }
 
 .text-500 li {
-    padding-bottom: 10px
+    padding-bottom: 20px
 }
 
 .text-500 a {
     color: greenyellow;
 }
 
+/* Spooky House Page */
+.bike-page {
+    background-image: url("https://images.unsplash.com/photo-1494376877685-d3d2559d4f82?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bike-text h1 {
+    font-size: 75px;
+    padding-top: 10vh;
+    padding-bottom: 50vh;
+}
+
+.bike-text p{
+    font-size: 20px;
+    text-align: left;
+    padding: 0 15% 20px;
+    font-weight: bolder;
+}
+
+.bike-text ol{
+    font-size: 18px;
+    text-align: left;
+    padding: 0 18%;
+}
+
+.bike-text a {
+    color: greenyellow;
+}
+
+/* Inside Spooky House Page */
+.house-page {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/05/20/53/zombie-1801470_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 1100px;
+}
+
 .house-text h1 {
     font-family: 'Nosifer', sans-serif;
-    color: #B7410e;
-    -webkit-text-fill-color: #B7410e;
+    color: #660000;
+    -webkit-text-fill-color: #660000;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #c96f49;
+    -webkit-text-stroke-color: #FFFFFF;
 }
 
 
@@ -980,32 +985,7 @@ footer a {
         font-size: 18px;
         padding: 20px 15%;
     }
-    
-    .bike-page {
-        height: 1100px;
-    }
-    
-    .bike-text h1 {
-        font-size: 90px;
-        padding-top: 100px;
-        padding-bottom: 400px;
-    }
-    
-    .bike-text p{
-        font-size: 20px;
-        text-align: center;
-        padding: 0 10% 20px;
-    }
-    
-    .bike-text ol{
-        font-size: 18px;
-        padding: 0 15%;
-    }
-    
-    .bike-text li {
-        padding-bottom: 10px
-    }
-    
+        
     .house-page {
         height: 1100px;
     }
@@ -1105,54 +1085,30 @@ footer a {
 
 
     /* Error Pages */
-    .error-404 {
-        height: 1100px;
-    }
-
     .error-text h1 {
-        font-size: 150px;
-        padding-top: 100px;
+        font-size: 120px;
+        padding-top: 10vh;
     }
     
     .error-text h4 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .error-text h2 {
-        font-size: 25px;
-        padding-bottom: 350px;
+        font-size: 20px;
+        padding-bottom: 40vh;
     }
     
     .error-text p{
         font-size: 16px;
         text-align: center;
-        padding: 0 20px 10px;
     }
     
     .error-text ol{
         font-size: 14px;
         padding: 10px 40px;
     }
-    
-    .bike-page {
-        height: 820px;
-    }
-    
-    .bike-text h1 {
-        font-size: 60px;
-        padding-top: 80px;
-        padding-bottom: 280px;
-    }
-    
-    .bike-text p{
-        font-size: 20px;
-    }
-    
-    .bike-text ol{
-        font-size: 14px;
-        padding: 0 15%;
-    }
-        
+            
     .house-page {
         height: 820px;
     }
@@ -1229,10 +1185,6 @@ footer a {
 
 
     /* Error Pages */
-    .error-404 {
-        height: 850px;
-    }
-
     .error-text h1 {
         padding-top: 50px;
     }
@@ -1255,13 +1207,19 @@ footer a {
         margin: 10px 2.5%;
         font-weight: bolder;
     }
-    
-    .bike-page {
-        height: 850px;
+
+    .bike-text h1 {
+        font-size: 50px;
+        padding-top: 10vh;
+        padding-bottom: 40vh;
     }
 
     .bike-text p{
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .bike-text ol {
+        font-size: 14px;
     }
             
     .house-page {

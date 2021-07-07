@@ -7,16 +7,29 @@
     padding: 0;
 }
 
-.container {
+.container2 {
     background-color: #E2DDDC;
     width: 100%;
     height: 100vh;
 }
 
-.content {
+.content2 {
     background-color: #EFF4F0;
     width: 75%;
     height: 100vh;
+    margin: 0 auto 20px;
+    background-position: center;
+    padding: 5%;
+}
+
+.container {
+    background-color: #E2DDDC;
+    width: 100%;
+}
+
+.content {
+    background-color: #EFF4F0;
+    width: 75%;
     margin: 0 auto;
     background-position: center;
     padding: 5%;
@@ -24,6 +37,12 @@
 
 /* This line of code was provided by Anthony O'Brien through Slack to fix a bug */
 .content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content2:after {
     content: "";
     display: table;
     clear: both;
@@ -232,6 +251,12 @@ span {
 
 
 /* Survival Tips Page */
+#click-links {
+    color: #305356;
+    font-weight: bold;
+    text-align: center;
+}
+
 #page-links li {
     background-color: #DFE7DE;
     display: inline-block;
@@ -280,7 +305,7 @@ span {
     padding: 1rem;
 }
 
-.sub-main p{
+.sub-main p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #383838;
@@ -1157,6 +1182,19 @@ footer a {
 
 /* For mobile screens 500px wide and down */
 @media screen and (max-width: 500px) {
+    .container2 {
+        background-color: #E2DDDC;
+        width: 100%;
+        height: 800px;
+    }
+    
+    .content2 {
+        width: 75%;
+        height: 800px;
+        margin: 0 auto;
+        padding: 5%;
+    }
+
     .content {
         width: 90%;
     }
@@ -1221,10 +1259,10 @@ footer a {
 
 
     /* Form Dump Pages */
-.dump-image {
-    width: 100%;
-    margin: 2rem auto 2rem;
-}
+    .dump-image {
+        width: 100%;
+        margin: 2rem auto 40px;
+    }
 
 
     /* Error Pages */

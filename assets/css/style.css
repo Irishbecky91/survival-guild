@@ -10,11 +10,13 @@
 .container {
     background-color: #E2DDDC;
     width: 100%;
+    height: 100vh;
 }
 
 .content {
     background-color: #EFF4F0;
     width: 75%;
+    height: 100vh;
     margin: 0 auto;
     background-position: center;
     padding: 5%;
@@ -544,6 +546,13 @@ textarea {
     color: #383838;
 }
 
+.dump-image {
+    width: 50%;
+    margin: 1rem 25% 2rem;
+    border-radius: 20px;
+    border: 1px solid #383838;
+}
+
 
 /* Error Pages */
 /* 404/500 Pages */
@@ -1031,7 +1040,7 @@ footer a {
 }
 
 
-/* For tablets screens 950px wide and down */
+/* For tablet screens 950px wide and down */
 @media screen and (max-width: 950px) {
     .content {
         width: 90%;
@@ -1098,6 +1107,17 @@ footer a {
     }
 
 
+    /* Form Dump Pages */
+.text-dump p {
+    padding: 20px 30px;
+}
+
+.dump-image {
+    width: 80%;
+    margin: 2rem 10% 2rem;
+}
+
+
     /* Error Pages */
     .error-text h1 {
         font-size: 120px;
@@ -1127,13 +1147,15 @@ footer a {
         height: 820px;
     }
 
+
+    /* Back-to-top Button */
     .top-home {
         right: 2%;
         }
 }
 
 
-/* For tablets screens 500px wide and down */
+/* For mobile screens 500px wide and down */
 @media screen and (max-width: 500px) {
     .content {
         width: 90%;
@@ -1198,6 +1220,13 @@ footer a {
     }
 
 
+    /* Form Dump Pages */
+.dump-image {
+    width: 100%;
+    margin: 2rem auto 2rem;
+}
+
+
     /* Error Pages */
     .error-text h1 {
         padding-top: 50px;
@@ -1248,7 +1277,7 @@ footer a {
 
     /* Back-To-Top Button Configuration */
     .top-home {
-        right: 1%;
-        bottom: 5.5%;
+        right: 5px;
+        bottom: 45px;
         }
 }

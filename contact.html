@@ -86,63 +86,55 @@
             </section>
 
             <!-- Our Contact Details -->
-            <section>
-                <div class="contact-left">
-                    <fieldset>
-                        <legend>CONTACT DETAILS</legend>
-                        <div class="text-input">
-                            <p class="contact-details"><i class="contact-icon fas fa-phone-alt"> </i> <a href="tel:020-918-7177">020-918-7177</a></p>
-                            <br/>
-                            <p class="contact-details"><i class="contact-icon fas fa-at"></i> <a href="mailto:survivalguild@ocovid.org">survivalguild@ocovid.org</a></p>
-                            <br/>
-                            <p class="contact-details"><i class="contact-icon fas fa-map-marker-alt"></i> The Survival Guild,</p>
-                            <p class="contact-details2">102 Apocalypse Lane,</p>
-                            <p class="contact-details2">Killarney,</p>
-                            <p class="contact-details2">Kerry</p>
+            <div class="contact-left">
+                <fieldset>
+                    <legend>CONTACT DETAILS</legend>
+                    <div class="text-input">
+                        <p class="contact-details"><i class="contact-icon fas fa-phone-alt"> </i> <a href="tel:020-918-7177">020-918-7177</a></p>
+                        <br/>
+                        <p class="contact-details"><i class="contact-icon fas fa-at"></i> <a href="mailto:survivalguild@ocovid.org">survivalguild@ocovid.org</a></p>
+                        <br/>
+                        <p class="contact-details"><i class="contact-icon fas fa-map-marker-alt"></i> The Survival Guild,</p>
+                        <p class="contact-details2">102 Apocalypse Lane,</p>
+                        <p class="contact-details2">Killarney,</p>
+                        <p class="contact-details2">Kerry</p>
+                    </div>
+                    <div class="map-div">
+                        <p class="text-input contact-details">Below is a map to our newly owned nuclear bunker. Current capacity is approx. 250 people.</p>
+                        <div id="map-wrapper">
+                            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2319.292192140086!2d-6.513921384773539!3d54.457779598580835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4860f1ee2eb442a3%3A0x4930fc2da898273!2sNorthern%20Ireland&#39;s%20Secret%20Bunker!5e0!3m2!1sen!2sie!4v1624780933822!5m2!1sen!2sie" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
-                        <div class="map-section">
-                            <p class="text-input contact-details">Below is a map to our newly owned nuclear bunker. Current capacity is approx. 250 people.</p>
-                            <section id="map-wrapper">
-                                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2319.292192140086!2d-6.513921384773539!3d54.457779598580835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4860f1ee2eb442a3%3A0x4930fc2da898273!2sNorthern%20Ireland&#39;s%20Secret%20Bunker!5e0!3m2!1sen!2sie!4v1624780933822!5m2!1sen!2sie" width="100%" height="150px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                            </section>
-                        </div>
-                    </fieldset>
-                </div>
-            </section>
+                    </div>
+                </fieldset>
+            </div>
 
             <!-- Contact Us Form -->
-            <section>
-                <div class="text-right">
-                    <form class="text-style" action="dump-contact.html">
-                        <fieldset>
-                            <legend>CONTACT FORM</legend>
-                            <div class="text-input">
-                                <label class="label" for="fname">First Name:</label>
-                                <br/>
-                                <input class="input-box" type="name" name="fname" placeholder="First Name" required/>
-                                <br/>
-                                <label class="label" for="lname">Last Name:</label>
-                                <br/>
-                                <input class="input-box" type="name" name="lname" placeholder="Last Name" required/>
-                                <br/>
-                                <label class="label" for="email">Email Address:</label>
-                                <br/>
-                                <input class="input-box" type="email" name="email" id="email" placeholder="Email Address" required/>
-                            </div>
-                            <div class="text-input2">
-                                <label class="label" for="message">Enter your message here:</label>
-                                <br>
-                                <textarea name="message"></textarea> 
-                            </div>
-                            <div class="buttons">
-                                <input type="submit" value="Send message" class="entry-submit">
-                                <br>
-                                <input type="reset" value="Clear Form" class="entry-reset">
-                            </div>
-                        </fieldset>
-                    </form>
-                </div>
-            </section>
+            <div class="text-right">
+                <form class="text-style" action="dump-contact.html">
+                    <fieldset>
+                        <legend>CONTACT FORM</legend>
+                        <div class="text-input">
+                            <label class="label" for="fname">First Name:</label>
+                            <input class="input-box" type="text" name="fname" id="fname" placeholder="First Name" required/>
+                            <br/>
+                            <label class="label" for="lname">Last Name:</label>
+                            <input class="input-box" type="text" name="lname" id="lname" placeholder="Last Name" required/>
+                            <br/>
+                            <label class="label" for="email">Email Address:</label>
+                            <input class="input-box" type="email" name="email" id="email" placeholder="Email Address" required/>
+                        </div>
+                        <div class="text-input2">
+                            <label class="label" for="message">Enter your message here:</label>
+                            <textarea name="message" id="message"></textarea> 
+                        </div>
+                        <div class="buttons">
+                            <input type="submit" value="Send message" class="entry-submit">
+                            <br>
+                            <input type="reset" value="Clear Form" class="entry-reset">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
         </div>
     </div>
 

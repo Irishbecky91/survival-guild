@@ -347,6 +347,7 @@ span {
 
 .video {
     width: 60%;
+    height: 350px;
     margin: 2rem 20% 4rem;
 }
 
@@ -365,7 +366,7 @@ span {
 }
 
 .unorder-list li {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 
@@ -601,29 +602,29 @@ textarea {
 }
 
 .error-text h1 {
-    font-size: 200px;
-    padding-top: 10vh;
+    font-size: 150px;
+    padding-top: 3vh;
 }
 
 .error-text h4 {
-    font-size: 20px;
-    padding-bottom: 1vh;
+    font-size: 18px;
+    padding-bottom: .5vh;
 }
 
 .error-text h2 {
-    font-size: 25px;
-    padding-bottom: 30vh;
+    font-size: 20px;
+    padding-bottom: 25vh;
 }
 
 .error-text p{
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
     margin: 0 15% 20px;
     font-weight: bolder;
 }
 
 .error-text ol{
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
     padding: 20px 18%;
     font-weight: bolder;
@@ -1007,6 +1008,7 @@ footer a {
     
     .video {
         width: 70%;
+        height: 300px;
         margin-left: 15%;
         margin-right: 15%;
     }
@@ -1115,6 +1117,7 @@ footer a {
     
     .video {
         width: 80%;
+        height: 250px;
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -1241,6 +1244,7 @@ footer a {
 
     .video {
         width: 100%;
+        height: 200px;
         margin-left: 0;
         margin-right: 0;
     }

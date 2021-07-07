@@ -108,7 +108,12 @@ The website needs to enable the **site manager** to:
     
 With the above information in mind, a strategy table was created to show the trade-offs between what is important and what is viable with the following results.
 
-![Strategy Table](assets/readme-files/strategy-table.png)
+<details>
+<summary>Heading</summary>
+
++ ![Strategy Table](assets/readme-files/strategy-table.png)
+
+</details>
 
 #### Scope
 The scope plane is about defining requirements based on the goals established on the strategy plane. Using the information in the strategy plane, the identified required features have been broken into the following two categories.

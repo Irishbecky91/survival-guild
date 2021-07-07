@@ -1,6 +1,6 @@
 # Survival Guild
 
-[View the live project here](url)
+[View the live project here](https://irishbecky91.github.io/survival-guild/)
 
 ## Table of contents
 1. [Introduction](#Introduction)

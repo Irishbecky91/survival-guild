@@ -98,18 +98,19 @@ The website needs to enable the **user** to:
     - Survival/hunting/gathering guide
     - Camp building and fortification guide
     - Backpack essentials
-    - Infected disposal tips and techniques
+    - Tips and techniques for defending against the Infected
     - Recommended equipment (hunting/tools/weapons/armor/etc.)
     - Report suspected cases for a referral.
     - Access links to additional sites where equipment, etc. can be purchased.
     
 The website needs to enable the **site manager** to:
 - Gather reports of suspected cases for a referral.
+- Gather entries for the competition draw.
     
 With the above information in mind, a strategy table was created to show the trade-offs between what is important and what is viable with the following results.
 
 <details>
-<summary>Heading</summary>
+<summary>Strategy Plane - Viability/Feasibility Table</summary>
 
 + ![Strategy Table](assets/readme-files/strategy-table.png)
 
@@ -137,7 +138,12 @@ The scope plane is about defining requirements based on the goals established on
 #### Structure
 The information above was then organized in a hierarchical tree structure showing how users can navigate through the site with ease and efficiency, with the following results:
 
-![Site Map](assets/readme-files/sitemap.png)
+<details>
+<summary>Site Map</summary>
+
++ ![Site Map](assets/readme-files/sitemap.png)
+
+</details>
 
 #### Skeleton
 Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of [Balsamiq](https://balsamiq.com/).

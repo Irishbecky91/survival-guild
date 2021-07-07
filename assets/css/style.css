@@ -638,42 +638,6 @@ textarea {
     color: greenyellow;
 }
 
-.text-500 h1 {
-    font-size: 200px;
-    padding-top: 30px;
-}
-
-.text-500 h4 {
-    font-size: 20px;
-    padding-bottom: 40px;
-}
-
-.text-500 h2 {
-    font-size: 30px;
-    padding-bottom: 350px;
-}
-
-.text-500 p{
-    font-size: 25px;
-    text-align: left;
-    padding: 0 15% 20px;
-    font-weight: bolder;
-}
-
-.text-500 ol{
-    font-size: 20px;
-    text-align: left;
-    padding: 20px 18%;
-    font-weight: bolder;
-}
-
-.text-500 li {
-    padding-bottom: 20px
-}
-
-.text-500 a {
-    color: greenyellow;
-}
 
 /* Spooky House Page */
 .bike-page {
@@ -690,14 +654,14 @@ textarea {
 }
 
 .bike-text p{
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     padding: 0 15% 20px;
     font-weight: bolder;
 }
 
 .bike-text ol{
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
     padding: 0 18%;
 }
@@ -711,10 +675,12 @@ textarea {
     background-image: url("https://cdn.pixabay.com/photo/2016/11/05/20/53/zombie-1801470_1280.jpg");
     background-size: cover;
     background-position: center;
-    height: 1100px;
+    height: 100vh;
 }
 
 .house-text h1 {
+    font-size: 55px;
+    padding-bottom: 50vh;
     font-family: 'Nosifer', sans-serif;
     color: #660000;
     -webkit-text-fill-color: #660000;
@@ -1035,10 +1001,6 @@ footer a {
         font-size: 18px;
         padding: 20px 15%;
     }
-        
-    .house-page {
-        height: 1100px;
-    }
 
     .h1-500 {
         font-size: 150px;
@@ -1169,10 +1131,6 @@ footer a {
     .error-text ol{
         font-size: 14px;
         padding: 10px 40px;
-    }
-            
-    .house-page {
-        height: 820px;
     }
 
 
@@ -1305,10 +1263,6 @@ footer a {
 
     .bike-text ol {
         font-size: 14px;
-    }
-            
-    .house-page {
-        height: 100%;
     }
 
     .house-text h1 {

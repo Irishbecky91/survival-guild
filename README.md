@@ -232,8 +232,10 @@ Each page within the site has a consistent and responsive navigation system. The
             <li>
                 <em>Back-to-top Button</em> - A Back-to-top button is on the bottom right of the screen, above the footer. This button will bring the user back to the top of the page from any point on the page. 
             </li>
+        </ul>
     </dd>
-    
+</dl>
+<dl>
     <dt><a href="survival-tips.html" target="_blank" alt="Survival Guild - Survival Tips Page">Survival Tips Page</a></dt>
     <dd>
         The <em>Survival Tips Page</em> is a scrollable page with the main content laid out in a single column, regardless of screen size.
@@ -253,18 +255,22 @@ Each page within the site has a consistent and responsive navigation system. The
             <li>
                 <em>Back-to-top Button</em> - A Back-to-top button is on the bottom right of the screen, above the footer. This button will bring the user back to the top of the page from any point on the page. 
             </li>
+        </ul>
     </dd>
-        
+</dl>
+<dl>
     <dt><a href="camp-setup.html" target="_blank" alt="Survival Guild - Camp Setup Page">Camp Setup Page</a></dt>
     <dd>
         The <em>Camp Setup Page</em> has all the same features as the Survival Tips Page, only with less videos embedded.
     </dd>
-    
+</dl>
+<dl>    
     <dt><a href="infected.html" target="_blank" alt="Survival Guild - The Infected Page">The Infected Page</a></dt>
     <dd>
         <em>The Infected Page</em> has all the same features as the Survival Tips Page, but without videos embedded and with only two Page Section Buttons.
     </dd>
-
+</dl>
+<dl>
     <dt><a href="contact.html" target="_blank" alt="Survival Guild - Contact Page">Contact Page</a></dt>
     <dd>
         The <em>Contact Page</em> is a scrollable page with two columns of content, which become a single column on smaller screen size.
@@ -278,8 +284,10 @@ Each page within the site has a consistent and responsive navigation system. The
             <li>
                 <em>Form</em> - The form contains three input boxes for names and email, and a text box for the user to enter a message. There is a submit button below these which changes colour when hovered over. Sending a message through this form brings the user to a Thank you Page. 
             </li>
+        </ul>
     </dd>
-    
+</dl>
+<dl>    
     <dt><a href="competition.html" target="_blank" alt="Survival Guild - Competition Page">Competition Page</a></dt>
     <dd>
         The <em>Competition Page</em> is a scrollable page with two columns of content, which become a single column on smaller screen size.
@@ -293,8 +301,10 @@ Each page within the site has a consistent and responsive navigation system. The
             <li>
                 <em>Form</em> - The form contains four input boxes for names, date of birth and email, and a question and anwser using radio buttons to select the correct answer for the competition entry. There is a submit button below these which changes colour when hovered over. Submitting an entry through this form brings the user to a Thank you Page. 
             </li>
+        </ul>
     </dd>
-        
+</dl>
+<dl>        
     <dt><a href="dump-contact.html" target="_blank" alt="Survival Guild - Contact Thank You Page">Contact Thank You Page</a></dt>
     <dd>
         The <em>Contact Thank You Page</em> is a single page made to thank the user for contacting the Survival Guild.
@@ -302,8 +312,10 @@ Each page within the site has a consistent and responsive navigation system. The
             <li>
                 <em>Content</em> - The content is made up of <em>text</em> and an <em>image</em>, which thanks the user for submitting a message on the Contact Page.
             </li>
+        </ul>
     </dd>
-        
+</dl>
+<dl>        
     <dt><a href="dump-competition.html" target="_blank" alt="Survival Guild - Competition Thank You Page">Competition Thank You Page</a></dt>
     <dd>
         The <em>Competition Thank You Page</em> is a single page made to thank the user for entering the Survival Guild competition.
@@ -311,8 +323,10 @@ Each page within the site has a consistent and responsive navigation system. The
             <li>
                 <em>Content</em> - The content is made up of <em>text</em> and an <em>image</em>, which thanks the user for entering the competition on the Competition Page.
             </li>
+        </ul>
     </dd>
-        
+</dl>
+<dl>        
     <dt><a href="404.html" target="_blank" alt="Survival Guild - 404 - Page Not Found">404 - Page Not Found</a></dt>
     <dd>
         The <em>404 Page</em> is a single page which appears when a user enters the wrong address into the address bar. It is made into a mini-game/story style to entertain the user before returning to the main site. Each page in the story has a different background image which relates to the text.
@@ -320,13 +334,16 @@ Each page within the site has a consistent and responsive navigation system. The
             <li>
                 <em>Content</em> - The content is made up of <em>text</em> and <em>links</em>, which allows the user to go directly to the home page or interact with the story.
             </li>
+        </ul>
     </dd>
-
-        <dt><a href="500.html" target="_blank" alt="Survival Guild - 500 - Internal Server Error">500 - Internal Server Error</a></dt>
+</dl>
+<dl>
+    <dt><a href="500.html" target="_blank" alt="Survival Guild - 500 - Internal Server Error">500 - Internal Server Error</a></dt>
     <dd>
         The <em>500 Page</em> is the exact same as the 404 page except for a different heaading letting the user know there was an internal server error.
     </dd>
-    
+</dl>
+<dl>    
     <dt><a href="bike.html" target="_blank" alt="Survival Guild - Page 2 of the Story">Page 2 of the Story</a></dt>
     <dd>
         The <em>Second Page</em> in the story is a single page which appears when a user clicks the link to continue the story. Each page in the story has a different background image which relates to the text.
@@ -334,8 +351,10 @@ Each page within the site has a consistent and responsive navigation system. The
             <li>
                 <em>Content</em> - The content is made up of <em>text</em> and <em>links</em>, which allows the user to go directly to the home page or continue interacting with the story.
             </li>
+        </ul>
     </dd>
-    
+</dl>
+<dl>    
     <dt><a href="house.html" target="_blank" alt="Survival Guild - Page 3 of the Story">Page 3 of the Story</a></dt>
     <dd>
         The <em>Third Page</em> in the story is a single page which appears when a user clicks the link to continue the story. Each page in the story has a different background image which relates to the text.
@@ -343,5 +362,6 @@ Each page within the site has a consistent and responsive navigation system. The
             <li>
                 <em>Content</em> - The content is made up of <em>text</em> and a single <em>link</em>, which allows the user to go directly to the home page.
             </li>
+        </ul>
     </dd>
 </dl>

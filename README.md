@@ -344,4 +344,4 @@ Each page within the site has a consistent and responsive navigation system. The
                 <em>Content</em> - The content is made up of <em>text</em> and a single <em>link</em>, which allows the user to go directly to the home page.
             </li>
     </dd>
-
+</dl>

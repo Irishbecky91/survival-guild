@@ -109,12 +109,14 @@ The website needs to enable the **site manager** to:
     
 With the above information in mind, a strategy table was created to show the trade-offs between what is important and what is viable with the following results.
 
+
 <details>
 <summary>Strategy Plane - Viability/Feasibility Table</summary>
 
-+ ![Strategy Table](assets/readme-files/strategy-table.png)
+![Strategy Table](assets/readme-files/strategy-table.png)
 
 </details>
+
 
 #### Scope
 The scope plane is about defining requirements based on the goals established on the strategy plane. Using the information in the strategy plane, the identified required features have been broken into the following two categories.
@@ -138,22 +140,38 @@ The scope plane is about defining requirements based on the goals established on
 #### Structure
 The information above was then organized in a hierarchical tree structure showing how users can navigate through the site with ease and efficiency, with the following results:
 
+
 <details>
 <summary>Site Map</summary>
 
-+ ![Site Map](assets/readme-files/sitemap.png)
+![Site Map](assets/readme-files/sitemap.png)
 
 </details>
+
 
 #### Skeleton
 Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of [Balsamiq](https://balsamiq.com/).
 
+
+<details>
+<summary>Balsamiq Wireframes</summary>
+    
 ![Site Wireframes](assets/readme-files/wireframe-all-pages.png)
 
-In addition to this, more realistic wireframes were made using [Figma] (https://www.figma.com/). These wireframes made some improvements upon the initial wireframes with regards to layout and features. but stayed mostly true to the original design.
+</details>    
+
+
+In addition to this, concept art was made using [Figma] (https://www.figma.com/) to showcase the appearance of the home page. The concept art made some improvements upon the initial wireframes with regards to layout and features. but stayed mostly true to the original design.
+
+
+<details>
+<summary>Figma Concept Art</summary>
 
 ![Homepage Detailed Wireframe](assets/readme-files/figma-homepage-mobile.PNG)
 ![Homepage Detailed Wireframe](assets/readme-files/figma-homepage-desktop.PNG)
+
+</summary>
+
 
 ### Design
 #### Colour Scheme
@@ -161,7 +179,14 @@ Using the [Colourmind](http://colormind.io/template/material-dashboard/) colour 
 
 This colour palette was chosen based on the colour Hazard Yellow, which is used on all hazardous material and signs. The colour represents the danger presented by the infected individuals in the fictional story.
 
+
+<details>
+<summary>Colour Palette</summary>
+
 ![Colour Palette](assets/readme-files/colour-palette.png)
+
+</details>
+
 
 #### Typography
 The typography pairing used on the site are [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open), [Special Elite](https://fonts.google.com/specimen/Special+Elite?query=speci) and [Oswald](https://fonts.google.com/specimen/Oswald?query=osw), imported from [Google Fonts](https://fonts.google.com/). A backup of Sans-Serif had been applied in case of import failure.

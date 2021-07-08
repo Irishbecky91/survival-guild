@@ -210,23 +210,18 @@ Various images, found in the [readme-files](assets/readme-files) folder, have be
 ## Features
 ### Design Features
 Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
-- For larger screen sizes:
-    - The **Header** is across the top of the page. It is not static as this would cover too much of the screen. A back-to-top button was implemented instead so users can access the navigation bar quickly.
-    - The **Navigation Bar** is positioned directly below the header. The navigation bar is only used for screen sizes larger than 1200px. It is then replaced by a hamburger menu.
-- For smaller screen sizes:
-    - The **Navigation Bar** collapses into a **Hamburger Menu** that, when clicked or tapped, opens a sidebar which shows the navigation options.
+- The **Header** is across the top of the page. It is not static as this would cover too much of the screen. A back-to-top button was implemented instead so users can access the navigation bar quickly.
+- The **Navigation Bar** is positioned directly below the header. The navigation bar is only used for screen sizes larger than 1200px. It is then replaced by a hamburger menu.
+- The **Navigation Bar** collapses into a **Hamburger Menu** that, when clicked or tapped, opens a sidebar which shows the navigation options.
+- The **Footer** is 100% in width and 40px in height. It stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab. Additionally, each social media link opens a zombie related link on each respective website; eg. the Facebook icon links to the Facebook page for [The Zombie Survival Guide book](https://www.facebook.com/TheZombieSurvivalGuide/).
 
 <dl>
     <dt><a href="index.html" target="_blank" alt="Survival Guild Home Page">Home Page</a></dt>
     <dd>
-        The <em>Home Page</em> is a single scroll page with the mamin content divided into two columns on larger screens, shifting into a single column on smaller screens.
-    </dd>
+        The <em>Home Page</em> is a scrollable page with the main content divided into two columns on larger screens, shifting into a single column on smaller screens.
         <ul>
             <li>
-                <em>Header</em> - The header width is 100% of the screen size and is 120px high. The text is centered and coloured hazard yellow (#EED202). 
-            </li>
-            <li>
-                <em>Introduction</em> - This text only section introduces the user to the site. 
+                <em>Introduction</em> - This text only section introduces the user to the page. 
             </li>
             <li>
                 <em>Competition Banner</em> - Covering 100% of the width of the screen, the competition banner is not static and moves with the page. Clicking on the image will bring you directly to the Competition Page.
@@ -235,6 +230,118 @@ Each page within the site has a consistent and responsive navigation system. The
                 <em>Content</em> - The World News section is a text only column to the left of the screen on larger screen sizes. Below this is the Twitter Feed, a heading and image only column, which is another column kept to the right of the screen on larger screen sizes. The News Feed section, a text and image column, keeps to the right on larger screen sizes. On smaller screen sizes, each section expands and becomes a single longer column. The order from top to bottom is World News, News Feed, and finally the Twitter Feed section. 
             </li>
             <li>
-                <em>Footer</em> - The footer stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab. Additionally, each social media link opens a zombie related link on each respective website; eg. the Facebook icon links to [The Facebook group for The Zombie Survival Guide book](https://www.facebook.com/TheZombieSurvivalGuide/)
+                <em>Back-to-top Button</em> - A Back-to-top button is on the bottom right of the screen, above the footer. This button will bring the user back to the top of the page from any point on the page. 
             </li>
-            
+    </dd>
+    
+    <dt><a href="survival-tips.html" target="_blank" alt="Survival Guild - Survival Tips Page">Survival Tips Page</a></dt>
+    <dd>
+        The <em>Survival Tips Page</em> is a scrollable page with the main content laid out in a single column, regardless of screen size.
+        <ul>
+            <li>
+                <em>Introduction</em> - This text only section introduces the user to the page. 
+            </li>
+            <li>
+                <em>Page Section Buttons</em> - There are three buttons which will bring the user to each of the sections on the page. This allows the user to get to the information they require quicker with less scrolling.
+            </li>
+            <li>
+                <em>Competition Banner</em> - Covering 100% of the width of the screen, the competition banner is not static and moves with the page. Clicking on the image will bring you directly to the Competition Page.
+            </li>
+            <li>
+                <em>Content</em> - The content is made up of <em>text</em>, <em>images</em> and some <em>videos</em> embedded from YouTube. The images and videos change size in accordance with the screen size in order to provide a better user experience.
+            </li>
+            <li>
+                <em>Back-to-top Button</em> - A Back-to-top button is on the bottom right of the screen, above the footer. This button will bring the user back to the top of the page from any point on the page. 
+            </li>
+    </dd>
+        
+    <dt><a href="camp-setup.html" target="_blank" alt="Survival Guild - Camp Setup Page">Camp Setup Page</a></dt>
+    <dd>
+        The <em>Camp Setup Page</em> has all the same features as the Survival Tips Page, only with less videos embedded.
+    </dd>
+    
+    <dt><a href="infected.html" target="_blank" alt="Survival Guild - The Infected Page">The Infected Page</a></dt>
+    <dd>
+        <em>The Infected Page</em> has all the same features as the Survival Tips Page, but without videos embedded and with only two Page Section Buttons.
+    </dd>
+
+    <dt><a href="contact.html" target="_blank" alt="Survival Guild - Contact Page">Contact Page</a></dt>
+    <dd>
+        The <em>Contact Page</em> is a scrollable page with two columns of content, which become a single column on smaller screen size.
+        <ul>
+            <li>
+                <em>Introduction</em> - This text only section introduces the user to the page. 
+            </li>
+            <li>
+                <em>Content</em> - The content is made up of <em>text</em>, <em>text input boxes</em> and a <em>map</em> embedded from Google Maps. The telephone number and email have <a> elements that diverts the user to their email or phone app, allowing ease of access if they wish to contact the site manager. The map changes size in accordance with the screen size in order to provide a better user experience.
+            </li>
+            <li>
+                <em>Form</em> - The form contains three input boxes for names and email, and a text box for the user to enter a message. There is a submit button below these which changes colour when hovered over. Sending a message through this form brings the user to a Thank you Page. 
+            </li>
+    </dd>
+    
+    <dt><a href="competition.html" target="_blank" alt="Survival Guild - Competition Page">Competition Page</a></dt>
+    <dd>
+        The <em>Competition Page</em> is a scrollable page with two columns of content, which become a single column on smaller screen size.
+        <ul>
+            <li>
+                <em>Introduction</em> - This section has text and one wide image, the same as the compition banner without the link, which introduces the user to the page. 
+            </li>
+            <li>
+                <em>Content</em> - The content is made up of <em>text</em>, <em>text input boxes</em> and a <em>scrollable box</em>, which contains the terms and conditions of the competition, laid out into two columns on larger screens. On smaller screen sizes, the two columns rearrange to make one long column.
+            </li>
+            <li>
+                <em>Form</em> - The form contains four input boxes for names, date of birth and email, and a question and anwser using radio buttons to select the correct answer for the competition entry. There is a submit button below these which changes colour when hovered over. Submitting an entry through this form brings the user to a Thank you Page. 
+            </li>
+    </dd>
+        
+    <dt><a href="dump-contact.html" target="_blank" alt="Survival Guild - Contact Thank You Page">Contact Thank You Page</a></dt>
+    <dd>
+        The <em>Contact Thank You Page</em> is a single page made to thank the user for contacting the Survival Guild.
+        <ul>
+            <li>
+                <em>Content</em> - The content is made up of <em>text</em> and an <em>image</em>, which thanks the user for submitting a message on the Contact Page.
+            </li>
+    </dd>
+        
+    <dt><a href="dump-competition.html" target="_blank" alt="Survival Guild - Competition Thank You Page">Competition Thank You Page</a></dt>
+    <dd>
+        The <em>Competition Thank You Page</em> is a single page made to thank the user for entering the Survival Guild competition.
+        <ul>
+            <li>
+                <em>Content</em> - The content is made up of <em>text</em> and an <em>image</em>, which thanks the user for entering the competition on the Competition Page.
+            </li>
+    </dd>
+        
+    <dt><a href="404.html" target="_blank" alt="Survival Guild - 404 - Page Not Found">404 - Page Not Found</a></dt>
+    <dd>
+        The <em>404 Page</em> is a single page which appears when a user enters the wrong address into the address bar. It is made into a mini-game/story style to entertain the user before returning to the main site. Each page in the story has a different background image which relates to the text.
+        <ul>
+            <li>
+                <em>Content</em> - The content is made up of <em>text</em> and <em>links</em>, which allows the user to go directly to the home page or interact with the story.
+            </li>
+    </dd>
+
+        <dt><a href="500.html" target="_blank" alt="Survival Guild - 500 - Internal Server Error">500 - Internal Server Error</a></dt>
+    <dd>
+        The <em>500 Page</em> is the exact same as the 404 page except for a different heaading letting the user know there was an internal server error.
+    </dd>
+    
+    <dt><a href="bike.html" target="_blank" alt="Survival Guild - Page 2 of the Story">Page 2 of the Story</a></dt>
+    <dd>
+        The <em>Second Page</em> in the story is a single page which appears when a user clicks the link to continue the story. Each page in the story has a different background image which relates to the text.
+        <ul>
+            <li>
+                <em>Content</em> - The content is made up of <em>text</em> and <em>links</em>, which allows the user to go directly to the home page or continue interacting with the story.
+            </li>
+    </dd>
+    
+    <dt><a href="house.html" target="_blank" alt="Survival Guild - Page 3 of the Story">Page 3 of the Story</a></dt>
+    <dd>
+        The <em>Third Page</em> in the story is a single page which appears when a user clicks the link to continue the story. Each page in the story has a different background image which relates to the text.
+        <ul>
+            <li>
+                <em>Content</em> - The content is made up of <em>text</em> and a single <em>link</em>, which allows the user to go directly to the home page.
+            </li>
+    </dd>
+

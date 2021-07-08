@@ -876,7 +876,7 @@ footer a {
     }
 
     .slogan {
-        font-size: large;
+        font-size: 18;
         padding-bottom: 1rem;
     }
 
@@ -1160,6 +1160,14 @@ footer a {
         width: 90%;
     }
     
+    .main-heading {
+        font-size: 30;
+    }
+
+    .slogan {
+        font-size: 16px;
+    }
+
     .text-heading {
         font-size: 40px;
     }

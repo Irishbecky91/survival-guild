@@ -1,6 +1,6 @@
 # Survival Guild
 
-![Survival Guild Mockup Images](assets/readme-files/survival-guild.png)
+![Survival Guild Mockup Images](assets/readme-files/survival-guild.PNG)
 
 [View the live project here](https://irishbecky91.github.io/survival-guild/)
 

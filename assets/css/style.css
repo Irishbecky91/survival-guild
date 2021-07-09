@@ -460,6 +460,7 @@ legend {
     width: 150px;
     padding: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .entry-submit:hover {

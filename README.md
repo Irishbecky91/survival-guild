@@ -395,9 +395,9 @@ The developer ran into several issues during the development of the website, wit
 **Background Bug** - A bug was detected early in development in the background of the main pages. While entering content onto the home page, the background colours were not covering the entire page, cutting off short and leaving a white background behind some of the content. The developer put a query to the #css-essentials channel in Slack and was provided with a simple piece of code from another user of Slack (Anthony O'Brien) which resolved the issue. It was from here that the developer was able to copy the code given as a solution to the bug, with celebratory success. This same issue occurred later on other pages, which the same piece of code was able to rectify.
 
 <details>
-    <summary>Background Bug</summary>
+<summary>Background Bug</summary>
     
-    ![Background Bug](assets/readme-files/background-bug.png)
+![Background Bug](assets/readme-files/background-bug.png)
     
 </details>
 

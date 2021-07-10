@@ -1279,8 +1279,8 @@ footer a {
         }
 }
 
-/* For very small mobile screens 800px high and down */
-@media screen and (max-height: 800px) {
+/* For very small mobile screens maximum of 500px wide and 800px high */
+@media screen and (max-width: 500px) and (max-height: 800px) {
     .error-404 {
         height: auto;
     }

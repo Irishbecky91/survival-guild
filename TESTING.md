@@ -238,40 +238,111 @@ Manual testing was conducted on the following elements of the [Competition Page]
           
 - The responsiveness of the error pages.
      
-![Responsiveness - All Error Pages](assets/testing-files/error-pages/responsive-error)
+![Responsiveness - All Error Pages](assets/testing-files/error-pages/responsive-error.gif)
 
      #### 404 Page
      
 - By entering an incorrect address into the address bar, the user is brought to the 404 page.
 
-![Reaching the 404 Page](assets/testing-files/error-pages/reaching-404)
+![Reaching the 404 Page](assets/testing-files/error-pages/reaching-404.gif)
      
 - The 404 page has two links, one brings the user to the next page in the "story", the other brings the user to the home page.
 
-![Links - 404 Page](assets/testing-files/error-pages/links-404)
+![Links - 404 Page](assets/testing-files/error-pages/links-404.gif)
      
 - The user chooses to continue the story or go to the home page. The story bring the user from an abandoned bicycle on a path to an abandoned house. If the user chooses to go inside, they are eaten. There is now only a single link that brings the user to the home page.
 
-![Story - 404 Page](assets/testing-files/error-pages/story-404)
+![Story - 404 Page](assets/testing-files/error-pages/story-404.gif)
      
      #### 500 Page
 - The 500 page has two links, one brings the user to the next page in the "story", the other brings the user to the home page.
 
-![Links - 500 Page](assets/testing-files/error-pages/links-500)
+![Links - 500 Page](assets/testing-files/error-pages/links-500.gif)
      
 - The user chooses to continue the story or go to the home page. The story bring the user from an abandoned bicycle on a path to an abandoned house. If the user chooses to go inside, they are eaten. There is now only a single link that brings the user to the home page.
 
-![Story - 500 Page](assets/testing-files/error-pages/story-500)
+![Story - 500 Page](assets/testing-files/error-pages/story-500.gif)
 
      #### House Page
 - The House page has two links, one brings the user to the next page in the "story", the other brings the user to the home page.
 
-![Links - House Page](assets/testing-files/error-pages/links-house)
+![Links - House Page](assets/testing-files/error-pages/links-house.gif)
      
      #### Final Story Page - Dead Page 
 - The Final page has one link that brings the user to the home page.
 
-![Links - Final Page](assets/testing-files/error-pages/links-dead)
+![Links - Final Page](assets/testing-files/error-pages/links-dead.gif)
      
 [Back to top](#Survival-Guild---Testing)
 
+## Automated Testing
+
+### Code Validation
+The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the `HTML` and `CSS` code used.
+
+**Results:**
+
+- Home Page
+
+     ![Home Page HTML Validation Results](assets/testing-files/validate/validate-home.gif)
+
+- Survival Tips Page
+
+     ![Survival Tips Page HTML Validation Results](assets/testing-files/validate/validate-survival.gif)
+
+- Camp Setup Page
+
+     ![Camp Setup Page HTML Validation Results](assets/testing-files/validate/validate-camp.gif)
+
+- The Infected Page
+
+     ![EPK Page HTML Validation Results](assets/testing-files/validate/validate-infected.gif)
+
+- Contact Page
+
+     ![Contact Page HTML Validation Results](assets/testing-files/validate/validate-contact.gif)
+     
+- Competition Page
+
+     ![Competition Page HTML Validation Results](assets/testing-files/validate/validate-competition.gif)
+     
+- Contact Form Dump Page
+
+     ![Contact Form Dump Page HTML Validation Results](assets/testing-files/validate/validate-dump-contact.gif)
+     
+- Competition Form Dump Page
+
+     ![Competition Form Dump Page HTML Validation Results](assets/testing-files/validate/validate-dump-comp.gif)
+     
+- 404 Page
+
+     ![404 Page HTML Validation Results](assets/testing-files/validate/validate-404.gif)
+     
+- 500 Page
+
+     ![500 Page HTML Validation Results](assets/testing-files/validate/validate-500.gif)
+     
+- House Story Page
+
+     ![House Story Page HTML Validation Results](assets/testing-files/validate/validate-house.gif)
+     
+- Final Story Page
+
+     ![Final Story Page HTML Validation Results](assets/testing-files/validate/validate-dead.gif)
+
+- CSS stylesheet
+
+     ![Style sheet validation results](assets/testing-files/validate/validate-css.png)
+
+### Browser Validation
+- Chrome - [test image](assets/testing-files/validate/validate-chrome.png)
+- Edge - [test image](assets/testing-files/validate/validate-edge.png)
+- Opera - [test image](assets/testing-files/validate/validate-opera.png)
+- Firefox - [test image](assets/testing-files/validate/validate-firefox.png)
+
+## User testing 
+My husband and the lovely people of Slack were asked to review the site and documentation to point out any bugs and/or user experience issues. Their helpful advice throughout the process led to a few small UX changes in order to create a better experience. 
+
+[Back to top ⇧](#Kryan-Live---Testing)
+
+***

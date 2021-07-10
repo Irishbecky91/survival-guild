@@ -1278,3 +1278,18 @@ footer a {
         bottom: 45px;
         }
 }
+
+/* For very small mobile screens 800px high and down */
+@media screen and (max-height: 800px) {
+    .error-404 {
+        height: auto;
+    }
+
+    .bike-page {
+        height: auto;
+    }
+
+    .house-page {
+        height: auto;
+    }
+}

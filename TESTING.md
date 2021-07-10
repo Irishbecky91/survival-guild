@@ -335,10 +335,10 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
      ![Style sheet validation results](assets/testing-files/validate/validate-css.png)
 
 ### Browser Validation
-- Chrome - [test image](assets/testing-files/browser/validate-chrome.png)
-- Edge - [test image](assets/testing-files/browser/validate-edge.png)
-- Opera - [test image](assets/testing-files/browser/validate-opera.png)
-- Firefox - [test image](assets/testing-files/browser/validate-firefox.png)
+- Chrome - [test image](assets/testing-files/browser/validate-chrome.PNG)
+- Edge - [test image](assets/testing-files/browser/validate-edge.PNG)
+- Opera - [test image](assets/testing-files/browser/validate-opera.PNG)
+- Firefox - [test image](assets/testing-files/browser/validate-firefox.PNG)
 
 ## User testing 
 My husband and the lovely people of Slack were asked to review the site and documentation to point out any bugs and/or user experience issues. Their helpful advice throughout the process led to a few small UX changes in order to create a better experience. 

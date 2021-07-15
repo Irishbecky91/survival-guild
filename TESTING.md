@@ -332,7 +332,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 - CSS stylesheet
 
-     ![Style sheet validation results](assets/testing-files/validate/validate-css.png)
+     ![Style sheet validation results](assets/testing-files/validate/validate-css.gif)
 
 ### Browser Validation
 - Chrome - [test image](assets/testing-files/browser/validate-chrome.PNG)
